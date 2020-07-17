@@ -1,0 +1,161 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<Leader><DOWN>	plugin/buffergator.vim	/^        nnoremap <silent> <Leader><DOWN> :BuffergatorMruCyclePrev rightbelow sbuffer<CR>$/;"	m
+<Leader><LEFT>	plugin/buffergator.vim	/^        nnoremap <silent> <Leader><LEFT> :BuffergatorMruCyclePrev leftabove vert sbuffer<CR>$/;"	m
+<Leader><RIGHT>	plugin/buffergator.vim	/^        nnoremap <silent> <Leader><RIGHT> :BuffergatorMruCyclePrev rightbelow vert sbuffer<CR>$/;"	m
+<Leader><S-DOWN>	plugin/buffergator.vim	/^        nnoremap <silent> <Leader><S-DOWN> :BuffergatorMruCycleNext rightbelow sbuffer<CR>$/;"	m
+<Leader><S-LEFT>	plugin/buffergator.vim	/^        nnoremap <silent> <Leader><S-LEFT> :BuffergatorMruCycleNext leftabove vert sbuffer<CR>$/;"	m
+<Leader><S-RIGHT>	plugin/buffergator.vim	/^        nnoremap <silent> <Leader><S-RIGHT> :BuffergatorMruCycleNext rightbelow vert sbuffer<CR>$/;"	m
+<Leader><S-UP>	plugin/buffergator.vim	/^        nnoremap <silent> <Leader><S-UP> :BuffergatorMruCycleNext leftabove sbuffer<CR>$/;"	m
+<Leader><UP>	plugin/buffergator.vim	/^        nnoremap <silent> <Leader><UP> :BuffergatorMruCyclePrev leftabove sbuffer<CR>$/;"	m
+<Leader>B	plugin/buffergator.vim	/^    nnoremap <silent> <Leader>B :BuffergatorClose<CR>$/;"	m
+<Leader>b	plugin/buffergator.vim	/^    nnoremap <silent> <Leader>b :BuffergatorOpen<CR>$/;"	m
+<M-S-b>	plugin/buffergator.vim	/^        nnoremap <silent> <M-S-b> :BuffergatorMruCycleNext<CR>$/;"	m
+<M-b>	plugin/buffergator.vim	/^        nnoremap <silent> <M-b> :BuffergatorMruCyclePrev<CR>$/;"	m
+BufferGatorAuto	autoload/buffergator.vim	/^augroup BufferGatorAuto$/;"	a
+BuffergatorBuffersStatusLine	autoload/buffergator.vim	/^function! BuffergatorBuffersStatusLine()$/;"	f
+BuffergatorClose	plugin/buffergator.vim	/^command! -nargs=0 BuffergatorClose       :call buffergator#CloseBuffergator()$/;"	c
+BuffergatorMRU	plugin/buffergator.vim	/^augroup BuffergatorMRU$/;"	a
+BuffergatorMruCycleNext	plugin/buffergator.vim	/^command! -nargs=* BuffergatorMruCycleNext :call buffergator#BuffergatorCycleMru(1, "<args>")$/;"	c
+BuffergatorMruCyclePrev	plugin/buffergator.vim	/^command! -nargs=* BuffergatorMruCyclePrev :call buffergator#BuffergatorCycleMru(-1, "<args>")$/;"	c
+BuffergatorMruList	plugin/buffergator.vim	/^command! -nargs=? -bang BuffergatorMruList     :call buffergator#BuffergatorEchoMruList('<bang>')$/;"	c
+BuffergatorOpen	plugin/buffergator.vim	/^command! -nargs=0 BuffergatorOpen        :call buffergator#OpenBuffergator()$/;"	c
+BuffergatorTabsClose	plugin/buffergator.vim	/^command! -nargs=0 BuffergatorTabsClose   :call buffergator#CloseBuffergatorTabs()$/;"	c
+BuffergatorTabsOpen	plugin/buffergator.vim	/^command! -nargs=0 BuffergatorTabsOpen    :call buffergator#OpenBuffergatorTabs()$/;"	c
+BuffergatorTabsStatusLine	autoload/buffergator.vim	/^function! BuffergatorTabsStatusLine()$/;"	f
+BuffergatorTabsToggle	plugin/buffergator.vim	/^command! -nargs=0 BuffergatorTabsToggle  :call buffergator#ToggleBuffergatorTabs()$/;"	c
+BuffergatorToggle	plugin/buffergator.vim	/^command! -nargs=0 BuffergatorToggle      :call buffergator#ToggleBuffergator()$/;"	c
+BuffergatorUpdate	plugin/buffergator.vim	/^command! -nargs=0 BuffergatorUpdate      :call buffergator#UpdateBuffergator('',-1)$/;"	c
+BuffergatorUpdateMRU	plugin/buffergator.vim	/^function! BuffergatorUpdateMRU(acmd_bufnr)$/;"	f
+NONE	autoload/buffergator.vim	/^augroup NONE$/;"	a
+NONE	plugin/buffergator.vim	/^augroup NONE$/;"	a
+NewBufferCatalogViewer	autoload/buffergator.vim	/^function! s:NewBufferCatalogViewer()$/;"	f
+NewCatalogViewer	autoload/buffergator.vim	/^function! s:NewCatalogViewer(name, title)$/;"	f
+NewMessenger	autoload/buffergator.vim	/^function! s:NewMessenger(name)$/;"	f
+NewTabCatalogViewer	autoload/buffergator.vim	/^function! s:NewTabCatalogViewer()$/;"	f
+[b	plugin/buffergator.vim	/^            nnoremap <silent> [b :BuffergatorMruCyclePrev<CR>$/;"	m
+[b	plugin/buffergator.vim	/^            nnoremap <silent> [b :bp<CR>$/;"	m
+]b	plugin/buffergator.vim	/^            nnoremap <silent> ]b :BuffergatorMruCycleNext<CR>$/;"	m
+]b	plugin/buffergator.vim	/^            nnoremap <silent> ]b :bn<CR>$/;"	m
+_compare_dicts_by_basename	autoload/buffergator.vim	/^function! s:_compare_dicts_by_basename(m1, m2)$/;"	f
+_compare_dicts_by_bufname	autoload/buffergator.vim	/^function! s:_compare_dicts_by_bufname(m1, m2)$/;"	f
+_compare_dicts_by_bufnum	autoload/buffergator.vim	/^function! s:_compare_dicts_by_bufnum(m1, m2)$/;"	f
+_compare_dicts_by_extension	autoload/buffergator.vim	/^function! s:_compare_dicts_by_extension(m1, m2)$/;"	f
+_compare_dicts_by_filepath	autoload/buffergator.vim	/^function! s:_compare_dicts_by_filepath(m1, m2)$/;"	f
+_compare_dicts_by_mru	autoload/buffergator.vim	/^function! s:_compare_dicts_by_mru(m1, m2)$/;"	f
+_compare_dicts_by_value	autoload/buffergator.vim	/^function! s:_compare_dicts_by_value(m1, m2, key)$/;"	f
+_detect_filetype	autoload/buffergator.vim	/^function! s:_detect_filetype(fname)$/;"	f
+_find_buffers_with_var	autoload/buffergator.vim	/^function! s:_find_buffers_with_var(varname, expr)$/;"	f
+_find_mru_bufnr	autoload/buffergator.vim	/^function! s:_find_mru_bufnr(dir, buffergator_mru)$/;"	f
+_format_align_left	autoload/buffergator.vim	/^function! s:_format_align_left(text, width, fill_char)$/;"	f
+_format_align_right	autoload/buffergator.vim	/^function! s:_format_align_right(text, width, fill_char)$/;"	f
+_format_escaped_filename	autoload/buffergator.vim	/^function! s:_format_escaped_filename(file)$/;"	f
+_format_filled	autoload/buffergator.vim	/^function! s:_format_filled(str, width, align, trunc)$/;"	f
+_format_time	autoload/buffergator.vim	/^function! s:_format_time(secs)$/;"	f
+_format_truncated	autoload/buffergator.vim	/^function! s:_format_truncated(str, max_len, trunc)$/;"	f
+_get_split_mode	autoload/buffergator.vim	/^function! s:_get_split_mode()$/;"	f
+_is_full_height_window	autoload/buffergator.vim	/^function! s:_is_full_height_window(win_num)$/;"	f
+_is_full_width_window	autoload/buffergator.vim	/^function! s:_is_full_width_window(win_num)$/;"	f
+buffergator#BuffergatorCycleMru	autoload/buffergator.vim	/^function! buffergator#BuffergatorCycleMru(dir, bufopencmd)$/;"	f
+buffergator#BuffergatorEchoMruList	autoload/buffergator.vim	/^function! buffergator#BuffergatorEchoMruList(bang)$/;"	f
+buffergator#CloseBuffergator	autoload/buffergator.vim	/^function! buffergator#CloseBuffergator()$/;"	f
+buffergator#CloseBuffergatorTabs	autoload/buffergator.vim	/^function! buffergator#CloseBuffergatorTabs()$/;"	f
+buffergator#OpenBuffergator	autoload/buffergator.vim	/^function! buffergator#OpenBuffergator()$/;"	f
+buffergator#OpenBuffergatorTabs	autoload/buffergator.vim	/^function! buffergator#OpenBuffergatorTabs()$/;"	f
+buffergator#ReopenBuffergator	autoload/buffergator.vim	/^function! buffergator#ReopenBuffergator()$/;"	f
+buffergator#ToggleBuffergator	autoload/buffergator.vim	/^function! buffergator#ToggleBuffergator()$/;"	f
+buffergator#ToggleBuffergatorTabs	autoload/buffergator.vim	/^function! buffergator#ToggleBuffergatorTabs()$/;"	f
+buffergator#UpdateBuffergator	autoload/buffergator.vim	/^function! buffergator#UpdateBuffergator(event, affected)$/;"	f
+catalog_viewer.acquire_viewport	autoload/buffergator.vim	/^    function! catalog_viewer.acquire_viewport(split_cmd)$/;"	f
+catalog_viewer.activate_viewport	autoload/buffergator.vim	/^    function! catalog_viewer.activate_viewport() dict$/;"	f
+catalog_viewer.append_line	autoload/buffergator.vim	/^    function! catalog_viewer.append_line(text, jump_to_bufnum) dict$/;"	f
+catalog_viewer.append_line	autoload/buffergator.vim	/^    function! catalog_viewer.append_line(text, jump_to_tabnum, jump_to_winnum) dict$/;"	f
+catalog_viewer.claim_buffer	autoload/buffergator.vim	/^    function! catalog_viewer.claim_buffer() dict$/;"	f
+catalog_viewer.clear_buffer	autoload/buffergator.vim	/^    function! catalog_viewer.clear_buffer() dict$/;"	f
+catalog_viewer.close	autoload/buffergator.vim	/^    function! catalog_viewer.close(restore_prev_window) dict$/;"	f
+catalog_viewer.contract_screen	autoload/buffergator.vim	/^    function! catalog_viewer.contract_screen() dict$/;"	f
+catalog_viewer.create_buffer	autoload/buffergator.vim	/^    function! catalog_viewer.create_buffer() dict$/;"	f
+catalog_viewer.cycle_autodismiss_modes	autoload/buffergator.vim	/^    function! catalog_viewer.cycle_autodismiss_modes() dict$/;"	f
+catalog_viewer.cycle_directory_path_display	autoload/buffergator.vim	/^    function! catalog_viewer.cycle_directory_path_display() dict$/;"	f
+catalog_viewer.cycle_display_regime	autoload/buffergator.vim	/^    function! catalog_viewer.cycle_display_regime() dict$/;"	f
+catalog_viewer.cycle_sort_regime	autoload/buffergator.vim	/^    function! catalog_viewer.cycle_sort_regime() dict$/;"	f
+catalog_viewer.cycle_viewport_modes	autoload/buffergator.vim	/^    function! catalog_viewer.cycle_viewport_modes() dict$/;"	f
+catalog_viewer.delete_target	autoload/buffergator.vim	/^    function! catalog_viewer.delete_target(wipe, force) dict range$/;"	f
+catalog_viewer.disable_editing_keymaps	autoload/buffergator.vim	/^    function! catalog_viewer.disable_editing_keymaps() dict$/;"	f
+catalog_viewer.expand_screen	autoload/buffergator.vim	/^    function! catalog_viewer.expand_screen() dict$/;"	f
+catalog_viewer.first_usable_viewport	autoload/buffergator.vim	/^    function! catalog_viewer.first_usable_viewport() dict$/;"	f
+catalog_viewer.get_target_bufnum	autoload/buffergator.vim	/^    function! catalog_viewer.get_target_bufnum(cmd_count) dict$/;"	f
+catalog_viewer.goto_index_entry	autoload/buffergator.vim	/^    function! catalog_viewer.goto_index_entry(direction) dict$/;"	f
+catalog_viewer.goto_index_entry	autoload/buffergator.vim	/^    function! catalog_viewer.goto_index_entry(direction, visit_target, refocus_catalog) dict range$/;"	f
+catalog_viewer.goto_pattern	autoload/buffergator.vim	/^    function! catalog_viewer.goto_pattern(pattern, direction) dict range$/;"	f
+catalog_viewer.goto_win_entry	autoload/buffergator.vim	/^    function! catalog_viewer.goto_win_entry(direction) dict$/;"	f
+catalog_viewer.highlight_current_line	autoload/buffergator.vim	/^    function! catalog_viewer.highlight_current_line()$/;"	f
+catalog_viewer.initialize_buffer	autoload/buffergator.vim	/^    function! catalog_viewer.initialize_buffer() dict$/;"	f
+catalog_viewer.is_usable_viewport	autoload/buffergator.vim	/^    function! catalog_viewer.is_usable_viewport(winnumber) dict$/;"	f
+catalog_viewer.list_buffers	autoload/buffergator.vim	/^    function! catalog_viewer.list_buffers() dict$/;"	f
+catalog_viewer.num_viewports_on_buffer	autoload/buffergator.vim	/^    function! catalog_viewer.num_viewports_on_buffer(bnum) dict$/;"	f
+catalog_viewer.open	autoload/buffergator.vim	/^    function! catalog_viewer.open(...) dict$/;"	f
+catalog_viewer.rebuild_catalog	autoload/buffergator.vim	/^    function! catalog_viewer.rebuild_catalog() dict$/;"	f
+catalog_viewer.render_buffer	autoload/buffergator.vim	/^    function! catalog_viewer.render_buffer() dict$/;"	f
+catalog_viewer.setup_buffer_commands	autoload/buffergator.vim	/^    function! catalog_viewer.setup_buffer_commands() dict$/;"	f
+catalog_viewer.setup_buffer_folding	autoload/buffergator.vim	/^    function! catalog_viewer.setup_buffer_folding() dict$/;"	f
+catalog_viewer.setup_buffer_keymaps	autoload/buffergator.vim	/^    function! catalog_viewer.setup_buffer_keymaps() dict$/;"	f
+catalog_viewer.setup_buffer_opts	autoload/buffergator.vim	/^    function! catalog_viewer.setup_buffer_opts() dict$/;"	f
+catalog_viewer.setup_buffer_statusline	autoload/buffergator.vim	/^    function! catalog_viewer.setup_buffer_statusline() dict$/;"	f
+catalog_viewer.setup_buffer_syntax	autoload/buffergator.vim	/^    function! catalog_viewer.setup_buffer_syntax() dict$/;"	f
+catalog_viewer.toggle	autoload/buffergator.vim	/^    function! catalog_viewer.toggle() dict$/;"	f
+catalog_viewer.toggle_zoom	autoload/buffergator.vim	/^    function! catalog_viewer.toggle_zoom() dict$/;"	f
+catalog_viewer.unclaim_buffer	autoload/buffergator.vim	/^    function! catalog_viewer.unclaim_buffer() dict$/;"	f
+catalog_viewer.update_buffers_info	autoload/buffergator.vim	/^    function! catalog_viewer.update_buffers_info() dict$/;"	f
+catalog_viewer.visit_buffer	autoload/buffergator.vim	/^    function! catalog_viewer.visit_buffer(bufnum, split_cmd) dict$/;"	f
+catalog_viewer.visit_open_target	autoload/buffergator.vim	/^    function! catalog_viewer.visit_open_target(unconditional, keep_catalog, split_cmd) dict range$/;"	f
+catalog_viewer.visit_target	autoload/buffergator.vim	/^    function! catalog_viewer.visit_target() dict$/;"	f
+catalog_viewer.visit_target	autoload/buffergator.vim	/^    function! catalog_viewer.visit_target(keep_catalog, refocus_catalog, split_cmd) dict range$/;"	f
+g:buffergator_autodismiss_on_select	autoload/buffergator.vim	/^    let g:buffergator_autodismiss_on_select = 1$/;"	v
+g:buffergator_autoexpand_on_split	autoload/buffergator.vim	/^    let g:buffergator_autoexpand_on_split = 1$/;"	v
+g:buffergator_autoupdate	autoload/buffergator.vim	/^    let g:buffergator_autoupdate = 0$/;"	v
+g:buffergator_display_regime	autoload/buffergator.vim	/^    let g:buffergator_display_regime = "basename"$/;"	v
+g:buffergator_hsplit_size	autoload/buffergator.vim	/^        let g:buffergator_hsplit_size = 20$/;"	v
+g:buffergator_hsplit_size	autoload/buffergator.vim	/^        let g:buffergator_hsplit_size = g:buffergator_split_size$/;"	v
+g:buffergator_move_wrap	autoload/buffergator.vim	/^    let g:buffergator_move_wrap = 1$/;"	v
+g:buffergator_mru	plugin/buffergator.vim	/^let g:buffergator_mru = []$/;"	v
+g:buffergator_mru_cycle_local_to_window	autoload/buffergator.vim	/^    let g:buffergator_mru_cycle_local_to_window = 1$/;"	v
+g:buffergator_mru_cycle_loop	plugin/buffergator.vim	/^    let g:buffergator_mru_cycle_loop = 1$/;"	v
+g:buffergator_remap_arrow_keys	autoload/buffergator.vim	/^    let g:buffergator_remap_arrow_keys = 0$/;"	v
+g:buffergator_show_full_directory_path	autoload/buffergator.vim	/^    let g:buffergator_show_full_directory_path = 1$/;"	v
+g:buffergator_sort_regime	autoload/buffergator.vim	/^    let g:buffergator_sort_regime = "bufnum"$/;"	v
+g:buffergator_tab_statusline	autoload/buffergator.vim	/^    let g:buffergator_tab_statusline = 1$/;"	v
+g:buffergator_track_mru	plugin/buffergator.vim	/^let g:buffergator_track_mru = 1$/;"	v
+g:buffergator_viewport_split_policy	autoload/buffergator.vim	/^    let g:buffergator_viewport_split_policy = "L"$/;"	v
+g:buffergator_vsplit_size	autoload/buffergator.vim	/^        let g:buffergator_vsplit_size = 40$/;"	v
+g:buffergator_vsplit_size	autoload/buffergator.vim	/^        let g:buffergator_vsplit_size = g:buffergator_split_size$/;"	v
+g:buffergator_window_statusline	autoload/buffergator.vim	/^    let g:buffergator_window_statusline = 1$/;"	v
+g:did_buffergator	plugin/buffergator.vim	/^let g:did_buffergator = 1$/;"	v
+gB	plugin/buffergator.vim	/^            nnoremap <silent> gB :BuffergatorMruCycleNext<CR>$/;"	m
+gb	plugin/buffergator.vim	/^            nnoremap <silent> gb :BuffergatorMruCyclePrev<CR>$/;"	m
+messenger.format_exception	autoload/buffergator.vim	/^    function! messenger.format_exception( msg) dict$/;"	f
+messenger.send_error	autoload/buffergator.vim	/^    function! messenger.send_error(msg) dict$/;"	f
+messenger.send_info	autoload/buffergator.vim	/^    function! messenger.send_info(msg) dict$/;"	f
+messenger.send_status	autoload/buffergator.vim	/^    function! messenger.send_status(msg) dict$/;"	f
+messenger.send_warning	autoload/buffergator.vim	/^    function! messenger.send_warning(msg) dict$/;"	f
+s:_buffergator_messenger	autoload/buffergator.vim	/^let s:_buffergator_messenger = s:NewMessenger("")$/;"	v
+s:_catalog_viewer	autoload/buffergator.vim	/^let s:_catalog_viewer = s:NewBufferCatalogViewer()$/;"	v
+s:_tab_catalog_viewer	autoload/buffergator.vim	/^let s:_tab_catalog_viewer = s:NewTabCatalogViewer()$/;"	v
+s:buffergator_buffer_line_symbols	autoload/buffergator.vim	/^let s:buffergator_buffer_line_symbols = {$/;"	v
+s:buffergator_buffer_line_symbols_order	autoload/buffergator.vim	/^let s:buffergator_buffer_line_symbols_order = [$/;"	v
+s:buffergator_catalog_display_regime_desc	autoload/buffergator.vim	/^let s:buffergator_catalog_display_regime_desc = {$/;"	v
+s:buffergator_catalog_display_regimes	autoload/buffergator.vim	/^let s:buffergator_catalog_display_regimes = ['basename', 'parentdir', 'filepath', 'bufname']$/;"	v
+s:buffergator_catalog_sort_regime_desc	autoload/buffergator.vim	/^let s:buffergator_catalog_sort_regime_desc = {$/;"	v
+s:buffergator_catalog_sort_regimes	autoload/buffergator.vim	/^let s:buffergator_catalog_sort_regimes = ['basename', 'filepath', 'extension', 'bufnum', 'mru']$/;"	v
+s:buffergator_default_catalog_sort_regime	autoload/buffergator.vim	/^let s:buffergator_default_catalog_sort_regime = "bufnum"$/;"	v
+s:buffergator_default_display_regime	autoload/buffergator.vim	/^let s:buffergator_default_display_regime = "basename"$/;"	v
+s:buffergator_viewport_split_modes	autoload/buffergator.vim	/^let s:buffergator_viewport_split_modes = {$/;"	v
+s:buffergator_viewport_split_modes_cycle_list	autoload/buffergator.vim	/^let s:buffergator_viewport_split_modes_cycle_list = ["L", "T", "R", "B"]$/;"	v
+s:is_buffergator_buffers_open	autoload/buffergator.vim	/^let s:is_buffergator_buffers_open = 0$/;"	v
+s:is_buffergator_tabs_open	autoload/buffergator.vim	/^let s:is_buffergator_tabs_open = 0$/;"	v
+s:save_cpo	autoload/buffergator.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	plugin/buffergator.vim	/^let s:save_cpo = &cpo$/;"	v

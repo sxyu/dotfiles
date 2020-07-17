@@ -1,0 +1,548 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BufVisible	autoload/commandt.vim	/^function! s:BufVisible(buffer)$/;"	f
+BufferFinder	ruby/command-t/lib/command-t/finder/buffer_finder.rb	/^    class BufferFinder < Finder$/;"	c	class:CommandT.Finder
+BufferScanner	ruby/command-t/lib/command-t/scanner/buffer_scanner.rb	/^    class BufferScanner < Scanner$/;"	c	class:CommandT.Scanner
+CommandFinder	ruby/command-t/lib/command-t/finder/command_finder.rb	/^    class CommandFinder < Finder$/;"	c	class:CommandT.Finder
+CommandScanner	ruby/command-t/lib/command-t/scanner/command_scanner.rb	/^    class CommandScanner < Scanner$/;"	c	class:CommandT.Scanner
+CommandT	ruby/command-t/ext/command-t/extconf.rb	/^    module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/controller.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/buffer_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/command_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/file_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/help_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/history_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/jump_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/line_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/mru_buffer_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/finder/tag_finder.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/match_window.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/metadata/fallback.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/mru.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/path_utilities.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/progress_reporter.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/prompt.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/buffer_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/command_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/file_scanner/find_file_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/file_scanner/git_file_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/file_scanner/ruby_file_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/file_scanner/watchman_file_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/help_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/history_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/jump_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/line_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/mru_buffer_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scanner/tag_scanner.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/scm_utilities.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/settings.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/stub.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/util.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/vim.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/vim/screen.rb	/^module CommandT$/;"	m
+CommandT	ruby/command-t/lib/command-t/vim/window.rb	/^module CommandT$/;"	m
+CommandTMRUBuffer	autoload/commandt.vim	/^augroup CommandTMRUBuffer$/;"	a
+CommandTMatcher_initialize	ruby/command-t/ext/command-t/matcher.c	/^VALUE CommandTMatcher_initialize(int argc, VALUE *argv, VALUE self) {$/;"	f
+CommandTMatcher_sorted_matches_for	ruby/command-t/ext/command-t/matcher.c	/^VALUE CommandTMatcher_sorted_matches_for(int argc, VALUE *argv, VALUE self)$/;"	f
+CommandTOpen	plugin/command-t.vim	/^command! -nargs=+ CommandTOpen call commandt#GotoOrOpen(<q-args>)$/;"	c
+CommandTWatchmanUtils_dump	ruby/command-t/ext/command-t/watchman.c	/^VALUE CommandTWatchmanUtils_dump(VALUE self, VALUE serializable) {$/;"	f
+CommandTWatchmanUtils_load	ruby/command-t/ext/command-t/watchman.c	/^VALUE CommandTWatchmanUtils_load(VALUE self, VALUE serialized) {$/;"	f
+CommandTWatchmanUtils_query	ruby/command-t/ext/command-t/watchman.c	/^VALUE CommandTWatchmanUtils_query(VALUE self, VALUE query, VALUE socket) {$/;"	f
+CommandT_option_from_hash	ruby/command-t/ext/command-t/ext.c	/^VALUE CommandT_option_from_hash(const char *option, VALUE hash) {$/;"	f
+Controller	ruby/command-t/lib/command-t/controller.rb	/^  class Controller$/;"	c	class:CommandT
+FileFinder	ruby/command-t/lib/command-t/finder/file_finder.rb	/^    class FileFinder < Finder$/;"	c	class:CommandT.Finder
+FileScanner	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^    class FileScanner < Scanner$/;"	c	class:CommandT.Scanner
+FileScanner	ruby/command-t/lib/command-t/scanner/file_scanner/find_file_scanner.rb	/^    class FileScanner$/;"	c	class:CommandT.Scanner
+FileScanner	ruby/command-t/lib/command-t/scanner/file_scanner/git_file_scanner.rb	/^    class FileScanner$/;"	c	class:CommandT.Scanner
+FileScanner	ruby/command-t/lib/command-t/scanner/file_scanner/ruby_file_scanner.rb	/^    class FileScanner$/;"	c	class:CommandT.Scanner
+FileScanner	ruby/command-t/lib/command-t/scanner/file_scanner/watchman_file_scanner.rb	/^    class FileScanner$/;"	c	class:CommandT.Scanner
+FindFileScanner	ruby/command-t/lib/command-t/scanner/file_scanner/find_file_scanner.rb	/^      class FindFileScanner < FileScanner$/;"	c	class:CommandT.Scanner.FileScanner
+Finder	ruby/command-t/lib/command-t/finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/buffer_finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/command_finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/file_finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/help_finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/history_finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/jump_finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/line_finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/mru_buffer_finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finder	ruby/command-t/lib/command-t/finder/tag_finder.rb	/^  class Finder$/;"	c	class:CommandT
+GitFileScanner	ruby/command-t/lib/command-t/scanner/file_scanner/git_file_scanner.rb	/^      class GitFileScanner < FindFileScanner$/;"	c	class:CommandT.Scanner.FileScanner
+HEAP_LEFT	ruby/command-t/ext/command-t/heap.c	9;"	d	file:
+HEAP_PARENT	ruby/command-t/ext/command-t/heap.c	8;"	d	file:
+HEAP_PEEK	ruby/command-t/ext/command-t/heap.h	17;"	d
+HEAP_RIGHT	ruby/command-t/ext/command-t/heap.c	10;"	d	file:
+HelpFinder	ruby/command-t/lib/command-t/finder/help_finder.rb	/^    class HelpFinder < Finder$/;"	c	class:CommandT.Finder
+HelpScanner	ruby/command-t/lib/command-t/scanner/help_scanner.rb	/^    class HelpScanner < Scanner$/;"	c	class:CommandT.Scanner
+HistoryFinder	ruby/command-t/lib/command-t/finder/history_finder.rb	/^    class HistoryFinder < Finder$/;"	c	class:CommandT.Finder
+HistoryScanner	ruby/command-t/lib/command-t/scanner/history_scanner.rb	/^    class HistoryScanner < Scanner$/;"	c	class:CommandT.Scanner
+Init_ext	ruby/command-t/ext/command-t/ext.c	/^void Init_ext() {$/;"	f
+JumpFinder	ruby/command-t/lib/command-t/finder/jump_finder.rb	/^    class JumpFinder < Finder$/;"	c	class:CommandT.Finder
+JumpScanner	ruby/command-t/lib/command-t/scanner/jump_scanner.rb	/^    class JumpScanner < Scanner$/;"	c	class:CommandT.Scanner
+L	ruby/command-t/ext/command-t/ext.h	17;"	d
+LineFinder	ruby/command-t/lib/command-t/finder/line_finder.rb	/^    class LineFinder < Finder$/;"	c	class:CommandT.Finder
+LineScanner	ruby/command-t/lib/command-t/scanner/line_scanner.rb	/^    class LineScanner < Scanner$/;"	c	class:CommandT.Scanner
+MRU	ruby/command-t/lib/command-t/mru.rb	/^  module MRU$/;"	m	class:CommandT
+MRUBufferFinder	ruby/command-t/lib/command-t/finder/mru_buffer_finder.rb	/^    class MRUBufferFinder < BufferFinder$/;"	c	class:CommandT.Finder
+MRUBufferScanner	ruby/command-t/lib/command-t/scanner/mru_buffer_scanner.rb	/^    class MRUBufferScanner < BufferScanner$/;"	c	class:CommandT.Scanner
+MatchWindow	ruby/command-t/lib/command-t/match_window.rb	/^  class MatchWindow$/;"	c	class:CommandT
+Metadata	ruby/command-t/ext/command-t/extconf.rb	/^      module Metadata$/;"	m	class:CommandT
+Metadata	ruby/command-t/lib/command-t/metadata/fallback.rb	/^  module Metadata$/;"	m	class:CommandT
+PathUtilities	ruby/command-t/lib/command-t/path_utilities.rb	/^  module PathUtilities$/;"	m	class:CommandT
+ProgressReporter	ruby/command-t/lib/command-t/progress_reporter.rb	/^  class ProgressReporter$/;"	c	class:CommandT
+Prompt	ruby/command-t/lib/command-t/prompt.rb	/^  class Prompt$/;"	c	class:CommandT
+RARRAY_LEN	ruby/command-t/ext/command-t/ruby_compat.h	23;"	d
+RARRAY_PTR	ruby/command-t/ext/command-t/ruby_compat.h	18;"	d
+RFLOAT_VALUE	ruby/command-t/ext/command-t/ruby_compat.h	28;"	d
+RSTRING_LEN	ruby/command-t/ext/command-t/ruby_compat.h	13;"	d
+RSTRING_PTR	ruby/command-t/ext/command-t/ruby_compat.h	8;"	d
+RUBY_INSPECT	ruby/command-t/ext/command-t/ext.h	21;"	d
+RubyFileScanner	ruby/command-t/lib/command-t/scanner/file_scanner/ruby_file_scanner.rb	/^      class RubyFileScanner < FileScanner$/;"	c	class:CommandT.Scanner.FileScanner
+RubyWarning	autoload/commandt.vim	/^function! s:RubyWarning() abort$/;"	f
+SCMUtilities	ruby/command-t/lib/command-t/scm_utilities.rb	/^  module SCMUtilities$/;"	m	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/buffer_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/command_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/file_scanner/find_file_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/file_scanner/git_file_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/file_scanner/ruby_file_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/file_scanner/watchman_file_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/help_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/history_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/jump_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/line_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/mru_buffer_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Scanner	ruby/command-t/lib/command-t/scanner/tag_scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Screen	ruby/command-t/lib/command-t/vim/screen.rb	/^    module Screen$/;"	m	class:CommandT.VIM
+Settings	ruby/command-t/lib/command-t/settings.rb	/^  class Settings$/;"	c	class:CommandT
+Stub	ruby/command-t/lib/command-t/stub.rb	/^  class Stub$/;"	c	class:CommandT
+THREAD_THRESHOLD	ruby/command-t/ext/command-t/matcher.c	291;"	d	file:
+TagFinder	ruby/command-t/lib/command-t/finder/tag_finder.rb	/^    class TagFinder < Finder$/;"	c	class:CommandT.Finder
+TagScanner	ruby/command-t/lib/command-t/scanner/tag_scanner.rb	/^    class TagScanner < Scanner$/;"	c	class:CommandT.Scanner
+UNSET_BITMASK	ruby/command-t/ext/command-t/match.h	6;"	d
+UNSET_SCORE	ruby/command-t/ext/command-t/match.c	9;"	d	file:
+Util	ruby/command-t/lib/command-t/util.rb	/^  module Util$/;"	m	class:CommandT
+VIM	ruby/command-t/lib/command-t/vim.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	ruby/command-t/lib/command-t/vim/screen.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	ruby/command-t/lib/command-t/vim/window.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	spec/spec_helper.rb	/^module VIM$/;"	m
+WATCHMAN_ARRAY_MARKER	ruby/command-t/ext/command-t/watchman.c	34;"	d	file:
+WATCHMAN_BINARY_MARKER	ruby/command-t/ext/command-t/watchman.c	33;"	d	file:
+WATCHMAN_DEFAULT_STORAGE	ruby/command-t/ext/command-t/watchman.c	31;"	d	file:
+WATCHMAN_FALSE	ruby/command-t/ext/command-t/watchman.c	43;"	d	file:
+WATCHMAN_FLOAT_MARKER	ruby/command-t/ext/command-t/watchman.c	41;"	d	file:
+WATCHMAN_HASH_MARKER	ruby/command-t/ext/command-t/watchman.c	35;"	d	file:
+WATCHMAN_HEADER	ruby/command-t/ext/command-t/watchman.c	48;"	d	file:
+WATCHMAN_INT16_MARKER	ruby/command-t/ext/command-t/watchman.c	38;"	d	file:
+WATCHMAN_INT32_MARKER	ruby/command-t/ext/command-t/watchman.c	39;"	d	file:
+WATCHMAN_INT64_MARKER	ruby/command-t/ext/command-t/watchman.c	40;"	d	file:
+WATCHMAN_INT8_MARKER	ruby/command-t/ext/command-t/watchman.c	37;"	d	file:
+WATCHMAN_NIL	ruby/command-t/ext/command-t/watchman.c	44;"	d	file:
+WATCHMAN_PEEK_BUFFER_SIZE	ruby/command-t/ext/command-t/watchman.c	555;"	d	file:
+WATCHMAN_SKIP_MARKER	ruby/command-t/ext/command-t/watchman.c	46;"	d	file:
+WATCHMAN_SNIFF_BUFFER_SIZE	ruby/command-t/ext/command-t/watchman.c	552;"	d	file:
+WATCHMAN_STRING_MARKER	ruby/command-t/ext/command-t/watchman.c	36;"	d	file:
+WATCHMAN_TEMPLATE_MARKER	ruby/command-t/ext/command-t/watchman.c	45;"	d	file:
+WATCHMAN_TRUE	ruby/command-t/ext/command-t/watchman.c	42;"	d	file:
+WatchmanFileScanner	ruby/command-t/lib/command-t/scanner/file_scanner/watchman_file_scanner.rb	/^      class WatchmanFileScanner < FindFileScanner$/;"	c	class:CommandT.Scanner.FileScanner
+Window	ruby/command-t/lib/command-t/vim/window.rb	/^    module Window$/;"	m	class:CommandT.VIM
+_next	ruby/command-t/lib/command-t/match_window.rb	/^    def _next$/;"	f	class:CommandT.MatchWindow
+_prev	ruby/command-t/lib/command-t/match_window.rb	/^    def _prev$/;"	f	class:CommandT.MatchWindow
+abbrev_segments	ruby/command-t/lib/command-t/prompt.rb	/^    def abbrev_segments$/;"	f	class:CommandT.Prompt
+accept_selection	ruby/command-t/lib/command-t/controller.rb	/^    def accept_selection(options = {})$/;"	f	class:CommandT.quickfix
+active_finder	ruby/command-t/lib/command-t/controller.rb	/^    def active_finder$/;"	f	class:CommandT
+active_finder	ruby/command-t/lib/command-t/stub.rb	/^    def active_finder$/;"	f	class:CommandT.Stub
+add!	ruby/command-t/lib/command-t/match_window.rb	/^    def add!(char)$/;"	f	class:CommandT.MatchWindow
+add!	ruby/command-t/lib/command-t/prompt.rb	/^    def add!(char)$/;"	f	class:CommandT.Prompt
+add_paths_for_directory	ruby/command-t/lib/command-t/scanner/file_scanner/ruby_file_scanner.rb	/^        def add_paths_for_directory(dir, accumulator)$/;"	f	class:CommandT.Scanner.FileScanner.RubyFileScanner
+align	bin/benchmarks/matcher.rb	/^def align(str, width)$/;"	f	class:significance
+always_show_dot_files	ruby/command-t/ext/command-t/match.c	/^    int     always_show_dot_files;  \/\/ Boolean.$/;"	m	struct:__anon2	file:
+always_show_dot_files	ruby/command-t/ext/command-t/matcher.c	/^    VALUE always_show_dot_files;$/;"	m	struct:__anon4	file:
+backspace	ruby/command-t/lib/command-t/controller.rb	/^    def backspace$/;"	f	class:CommandT.quickfix
+backspace!	ruby/command-t/lib/command-t/match_window.rb	/^    def backspace!$/;"	f	class:CommandT.MatchWindow
+backspace!	ruby/command-t/lib/command-t/prompt.rb	/^    def backspace!$/;"	f	class:CommandT.Prompt
+binary	spec/command-t/watchman/utils_spec.rb	/^  def binary(str)$/;"	f
+bitmask	ruby/command-t/ext/command-t/match.h	/^    long bitmask;$/;"	m	struct:__anon3
+buffer	spec/command-t/scanner/buffer_scanner_spec.rb	/^  def buffer(name)$/;"	f
+buffer_finder	ruby/command-t/lib/command-t/controller.rb	/^    def buffer_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+buffer_number	ruby/command-t/lib/command-t/match_window.rb	/^    def buffer_number$/;"	f	class:CommandT.MatchWindow
+buffer_number	ruby/command-t/lib/command-t/scanner/line_scanner.rb	/^      def buffer_number(buffer)$/;"	f	class:CommandT.Scanner.LineScanner.paths!
+buffers	ruby/command-t/lib/command-t/mru.rb	/^      def buffers$/;"	f	class:CommandT.MRU
+cCommandTMatcher	ruby/command-t/ext/command-t/ext.c	/^VALUE cCommandTMatcher       = 0; \/\/ class CommandT::Matcher$/;"	v
+calculate_bitmask	ruby/command-t/ext/command-t/matcher.c	/^long calculate_bitmask(VALUE string) {$/;"	f
+calculate_match	ruby/command-t/ext/command-t/match.c	/^float calculate_match($/;"	f
+cancel	ruby/command-t/lib/command-t/controller.rb	/^    def cancel$/;"	f	class:CommandT.quickfix
+cap	ruby/command-t/ext/command-t/watchman.c	/^    size_t cap;     \/\/ total capacity$/;"	m	struct:__anon5	file:
+capacity	ruby/command-t/ext/command-t/heap.h	/^    long capacity;$/;"	m	struct:__anon1
+capture	ruby/command-t/lib/command-t/vim.rb	/^      def capture(cmd)$/;"	f	class:CommandT.VIM
+case_sensitive	ruby/command-t/ext/command-t/match.c	/^    int     case_sensitive;         \/\/ Boolean.$/;"	m	struct:__anon2	file:
+case_sensitive	ruby/command-t/ext/command-t/matcher.c	/^    long case_sensitive;$/;"	m	struct:__anon4	file:
+case_sensitive?	ruby/command-t/lib/command-t/controller.rb	/^    def case_sensitive?$/;"	f	class:CommandT.quickfix
+center	bin/benchmarks/matcher.rb	/^def center(str)$/;"	f	class:significance
+check_ruby_1_9_2	spec/command-t/controller_spec.rb	/^  def check_ruby_1_9_2$/;"	f
+clear	ruby/command-t/lib/command-t/controller.rb	/^    def clear$/;"	f	class:CommandT.quickfix
+clear	ruby/command-t/lib/command-t/match_window.rb	/^    def clear$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+clear!	ruby/command-t/lib/command-t/prompt.rb	/^    def clear!$/;"	f	class:CommandT.Prompt
+clear_prev_word	ruby/command-t/lib/command-t/controller.rb	/^    def clear_prev_word$/;"	f	class:CommandT.quickfix
+clear_prev_word!	ruby/command-t/lib/command-t/prompt.rb	/^    def clear_prev_word!$/;"	f	class:CommandT.Prompt
+close	ruby/command-t/lib/command-t/match_window.rb	/^    def close$/;"	f	class:CommandT.MatchWindow
+cmp_alpha	ruby/command-t/ext/command-t/matcher.c	/^int cmp_alpha(const void *a, const void *b) {$/;"	f
+cmp_score	ruby/command-t/ext/command-t/matcher.c	/^int cmp_score(const void *a, const void *b) {$/;"	f
+command_finder	ruby/command-t/lib/command-t/controller.rb	/^    def command_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+commandt#ActiveFinder	autoload/commandt.vim	/^function! commandt#ActiveFinder() abort$/;"	f
+commandt#BufferFinder	autoload/commandt.vim	/^function! commandt#BufferFinder() abort$/;"	f
+commandt#CheckBuffer	autoload/commandt.vim	/^function! commandt#CheckBuffer(buffer_number) abort$/;"	f
+commandt#CommandFinder	autoload/commandt.vim	/^function! commandt#CommandFinder() abort$/;"	f
+commandt#FileFinder	autoload/commandt.vim	/^function! commandt#FileFinder(arg) abort$/;"	f
+commandt#Flush	autoload/commandt.vim	/^function! commandt#Flush() abort$/;"	f
+commandt#GotoOrOpen	autoload/commandt.vim	/^function! commandt#GotoOrOpen(command_and_args) abort$/;"	f
+commandt#HelpFinder	autoload/commandt.vim	/^function! commandt#HelpFinder() abort$/;"	f
+commandt#HistoryFinder	autoload/commandt.vim	/^function! commandt#HistoryFinder() abort$/;"	f
+commandt#JumpFinder	autoload/commandt.vim	/^function! commandt#JumpFinder() abort$/;"	f
+commandt#LineFinder	autoload/commandt.vim	/^function! commandt#LineFinder() abort$/;"	f
+commandt#Load	autoload/commandt.vim	/^function! commandt#Load() abort$/;"	f
+commandt#MRUFinder	autoload/commandt.vim	/^function! commandt#MRUFinder() abort$/;"	f
+commandt#Path	autoload/commandt.vim	/^function! commandt#Path() abort$/;"	f
+commandt#SearchFinder	autoload/commandt.vim	/^function! commandt#SearchFinder() abort$/;"	f
+commandt#TagFinder	autoload/commandt.vim	/^function! commandt#TagFinder() abort$/;"	f
+commandt#isengard#init	autoload/commandt/isengard.vim	/^function! commandt#isengard#init() abort$/;"	f
+commandt#mirkwood#init	autoload/commandt/mirkwood.vim	/^function! commandt#mirkwood#init() abort$/;"	f
+commandt#private#AcceptSelection	autoload/commandt/private.vim	/^function! commandt#private#AcceptSelection() abort$/;"	f
+commandt#private#AcceptSelectionSplit	autoload/commandt/private.vim	/^function! commandt#private#AcceptSelectionSplit() abort$/;"	f
+commandt#private#AcceptSelectionTab	autoload/commandt/private.vim	/^function! commandt#private#AcceptSelectionTab() abort$/;"	f
+commandt#private#AcceptSelectionVSplit	autoload/commandt/private.vim	/^function! commandt#private#AcceptSelectionVSplit() abort$/;"	f
+commandt#private#Backspace	autoload/commandt/private.vim	/^function! commandt#private#Backspace() abort$/;"	f
+commandt#private#Cancel	autoload/commandt/private.vim	/^function! commandt#private#Cancel() abort$/;"	f
+commandt#private#Clear	autoload/commandt/private.vim	/^function! commandt#private#Clear() abort$/;"	f
+commandt#private#ClearPrevWord	autoload/commandt/private.vim	/^function! commandt#private#ClearPrevWord() abort$/;"	f
+commandt#private#CursorEnd	autoload/commandt/private.vim	/^function! commandt#private#CursorEnd() abort$/;"	f
+commandt#private#CursorLeft	autoload/commandt/private.vim	/^function! commandt#private#CursorLeft() abort$/;"	f
+commandt#private#CursorRight	autoload/commandt/private.vim	/^function! commandt#private#CursorRight() abort$/;"	f
+commandt#private#CursorStart	autoload/commandt/private.vim	/^function! commandt#private#CursorStart() abort$/;"	f
+commandt#private#Delete	autoload/commandt/private.vim	/^function! commandt#private#Delete() abort$/;"	f
+commandt#private#HandleKey	autoload/commandt/private.vim	/^function! commandt#private#HandleKey(arg) abort$/;"	f
+commandt#private#ListMatches	autoload/commandt/private.vim	/^function! commandt#private#ListMatches() abort$/;"	f
+commandt#private#Quickfix	autoload/commandt/private.vim	/^function! commandt#private#Quickfix() abort$/;"	f
+commandt#private#Refresh	autoload/commandt/private.vim	/^function! commandt#private#Refresh() abort$/;"	f
+commandt#private#RemoveBuffer	autoload/commandt/private.vim	/^function! commandt#private#RemoveBuffer() abort$/;"	f
+commandt#private#RunAutocmd	autoload/commandt/private.vim	/^function! commandt#private#RunAutocmd(cmd) abort$/;"	f
+commandt#private#SelectNext	autoload/commandt/private.vim	/^function! commandt#private#SelectNext() abort$/;"	f
+commandt#private#SelectPrev	autoload/commandt/private.vim	/^function! commandt#private#SelectPrev() abort$/;"	f
+commandt#private#ToggleFocus	autoload/commandt/private.vim	/^function! commandt#private#ToggleFocus() abort$/;"	f
+commandt#private#capture	autoload/commandt/private.vim	/^function! commandt#private#capture(cmd) abort$/;"	f
+comparator	ruby/command-t/ext/command-t/heap.h	/^    heap_compare_entries comparator;$/;"	m	struct:__anon1
+count	ruby/command-t/ext/command-t/heap.h	/^    long count;$/;"	m	struct:__anon1
+current_buffer_visible_in_other_window	ruby/command-t/lib/command-t/controller.rb	/^    def current_buffer_visible_in_other_window$/;"	f	class:CommandT.quickfix
+current_file_dir	ruby/command-t/lib/command-t/vim.rb	/^      def current_file_dir$/;"	f	class:CommandT.VIM
+cursor_end	ruby/command-t/lib/command-t/controller.rb	/^    def cursor_end$/;"	f	class:CommandT.quickfix
+cursor_end	ruby/command-t/lib/command-t/prompt.rb	/^    def cursor_end$/;"	f	class:CommandT.Prompt
+cursor_left	ruby/command-t/lib/command-t/controller.rb	/^    def cursor_left$/;"	f	class:CommandT.quickfix
+cursor_left	ruby/command-t/lib/command-t/prompt.rb	/^    def cursor_left$/;"	f	class:CommandT.Prompt
+cursor_right	ruby/command-t/lib/command-t/controller.rb	/^    def cursor_right$/;"	f	class:CommandT.quickfix
+cursor_right	ruby/command-t/lib/command-t/prompt.rb	/^    def cursor_right$/;"	f	class:CommandT.Prompt
+cursor_start	ruby/command-t/lib/command-t/controller.rb	/^    def cursor_start$/;"	f	class:CommandT.quickfix
+cursor_start	ruby/command-t/lib/command-t/prompt.rb	/^    def cursor_start$/;"	f	class:CommandT.Prompt
+data	ruby/command-t/ext/command-t/watchman.c	/^    uint8_t *data;  \/\/ payload$/;"	m	struct:__anon5	file:
+default_open_command	ruby/command-t/lib/command-t/controller.rb	/^    def default_open_command$/;"	f	class:CommandT.quickfix
+delete	ruby/command-t/lib/command-t/controller.rb	/^    def delete$/;"	f	class:CommandT.quickfix
+delete	ruby/command-t/lib/command-t/mru.rb	/^      def delete$/;"	f	class:CommandT.MRU
+delete!	ruby/command-t/lib/command-t/prompt.rb	/^    def delete!$/;"	f	class:CommandT.Prompt
+dispose	ruby/command-t/lib/command-t/prompt.rb	/^    def dispose$/;"	f	class:CommandT.Prompt
+ensure_appropriate_window_selection	ruby/command-t/lib/command-t/controller.rb	/^    def ensure_appropriate_window_selection$/;"	f	class:CommandT.quickfix
+ensure_cache_under_limit	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^      def ensure_cache_under_limit$/;"	f	class:CommandT.Scanner.FileScanner
+entries	ruby/command-t/ext/command-t/heap.h	/^    void **entries;$/;"	m	struct:__anon1
+escape_for_single_quotes	ruby/command-t/lib/command-t/vim.rb	/^      def escape_for_single_quotes(str)$/;"	f	class:CommandT.VIM
+evaluate	spec/spec_helper.rb	/^    def evaluate(*args); end$/;"	f	class:VIM
+exists?	ruby/command-t/lib/command-t/vim.rb	/^      def exists?(str)$/;"	f	class:CommandT.VIM
+extract_value	ruby/command-t/lib/command-t/scanner/file_scanner/watchman_file_scanner.rb	/^        def extract_value(object, key = nil)$/;"	f	class:CommandT.Scanner.FileScanner.WatchmanFileScanner
+file_finder	ruby/command-t/lib/command-t/controller.rb	/^    def file_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+find	ruby/command-t/lib/command-t/match_window.rb	/^    def find(char)$/;"	f	class:CommandT.MatchWindow
+float	bin/benchmarks/matcher.rb	/^def float(x)$/;"	f	class:significance
+flush	ruby/command-t/lib/command-t/controller.rb	/^    def flush$/;"	f	class:CommandT.quickfix
+flush	ruby/command-t/lib/command-t/finder/command_finder.rb	/^      def flush; end$/;"	f	class:CommandT.Finder.CommandFinder
+flush	ruby/command-t/lib/command-t/finder/file_finder.rb	/^      def flush$/;"	f	class:CommandT.Finder.FileFinder
+flush	ruby/command-t/lib/command-t/finder/help_finder.rb	/^      def flush$/;"	f	class:CommandT.Finder.HelpFinder
+flush	ruby/command-t/lib/command-t/finder/history_finder.rb	/^      def flush; end$/;"	f	class:CommandT.Finder.HistoryFinder
+flush	ruby/command-t/lib/command-t/finder/line_finder.rb	/^      def flush; end$/;"	f	class:CommandT.Finder.LineFinder
+flush	ruby/command-t/lib/command-t/finder/tag_finder.rb	/^      def flush$/;"	f	class:CommandT.Finder.TagFinder
+flush	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^      def flush$/;"	f	class:CommandT.Scanner.FileScanner
+flush	ruby/command-t/lib/command-t/scanner/help_scanner.rb	/^      def flush$/;"	f	class:CommandT.Scanner.HelpScanner
+flush	ruby/command-t/lib/command-t/scanner/tag_scanner.rb	/^      def flush$/;"	f	class:CommandT.Scanner.TagScanner.paths
+focus	ruby/command-t/lib/command-t/match_window.rb	/^    def focus$/;"	f	class:CommandT.MatchWindow
+focus	ruby/command-t/lib/command-t/prompt.rb	/^    def focus$/;"	f	class:CommandT.Prompt
+focus_window	ruby/command-t/lib/command-t/match_window.rb	/^    def focus_window(number)$/;"	f	class:CommandT.MatchWindow
+g:command_t_autoloaded	autoload/commandt.vim	/^let g:command_t_autoloaded = 1$/;"	v
+g:command_t_loaded	plugin/command-t.vim	/^let g:command_t_loaded = 1$/;"	v
+get_bool	ruby/command-t/lib/command-t/vim.rb	/^      def get_bool(name, default = nil)$/;"	f	class:CommandT.VIM
+get_cursor_highlight	ruby/command-t/lib/command-t/match_window.rb	/^    def get_cursor_highlight$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+get_list_or_string	ruby/command-t/lib/command-t/vim.rb	/^      def get_list_or_string(name)$/;"	f	class:CommandT.VIM
+get_number	ruby/command-t/lib/command-t/vim.rb	/^      def get_number(name)$/;"	f	class:CommandT.VIM
+get_raw_sockname	ruby/command-t/lib/command-t/scanner/file_scanner/watchman_file_scanner.rb	/^        def get_raw_sockname$/;"	f	class:CommandT.Scanner.FileScanner.WatchmanFileScanner
+get_string	ruby/command-t/lib/command-t/vim.rb	/^      def get_string(name)$/;"	f	class:CommandT.VIM
+global?	ruby/command-t/lib/command-t/settings.rb	/^    def global?(setting)$/;"	f	class:CommandT.Settings
+guard	ruby/command-t/lib/command-t/controller.rb	/^    def self.guard(method)$/;"	F	class:CommandT.Controller
+handle_key	ruby/command-t/lib/command-t/controller.rb	/^    def handle_key$/;"	f	class:CommandT.quickfix
+has?	ruby/command-t/lib/command-t/vim.rb	/^      def has?(feature)$/;"	f	class:CommandT.VIM
+haystack_len	ruby/command-t/ext/command-t/match.c	/^    long    haystack_len;           \/\/ Length of same.$/;"	m	struct:__anon2	file:
+haystack_p	ruby/command-t/ext/command-t/match.c	/^    char    *haystack_p;            \/\/ Pointer to the path string to be searched.$/;"	m	struct:__anon2	file:
+haystacks	ruby/command-t/ext/command-t/matcher.c	/^    VALUE haystacks;$/;"	m	struct:__anon4	file:
+header	ruby/command-t/ext/command-t/extconf.rb	/^def header(item)$/;"	f
+heap_compare	ruby/command-t/ext/command-t/heap.c	/^int heap_compare(heap_t *heap, long a_idx, long b_idx) {$/;"	f
+heap_compare_entries	ruby/command-t/ext/command-t/heap.h	/^typedef int (*heap_compare_entries)(const void *a, const void *b);$/;"	t
+heap_extract	ruby/command-t/ext/command-t/heap.c	/^void *heap_extract(heap_t *heap) {$/;"	f
+heap_free	ruby/command-t/ext/command-t/heap.c	/^void heap_free(heap_t *heap) {$/;"	f
+heap_heapify	ruby/command-t/ext/command-t/heap.c	/^void heap_heapify(heap_t *heap, long idx) {$/;"	f
+heap_insert	ruby/command-t/ext/command-t/heap.c	/^void heap_insert(heap_t *heap, void *value) {$/;"	f
+heap_new	ruby/command-t/ext/command-t/heap.c	/^heap_t *heap_new(long capacity, heap_compare_entries comparator) {$/;"	f
+heap_property	ruby/command-t/ext/command-t/heap.c	/^int heap_property(heap_t *heap, long parent_idx, long child_idx) {$/;"	f
+heap_swap	ruby/command-t/ext/command-t/heap.c	/^void heap_swap(heap_t *heap, long a, long b) {$/;"	f
+heap_t	ruby/command-t/ext/command-t/heap.h	/^} heap_t;$/;"	t	typeref:struct:__anon1
+help_finder	ruby/command-t/lib/command-t/controller.rb	/^    def help_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+hide	ruby/command-t/lib/command-t/controller.rb	/^    def hide$/;"	f	class:CommandT
+hide_cursor	ruby/command-t/lib/command-t/match_window.rb	/^    def hide_cursor$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+history_finder	ruby/command-t/lib/command-t/controller.rb	/^    def history_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+initialize	ruby/command-t/lib/command-t/controller.rb	/^    def initialize$/;"	f	class:CommandT
+initialize	ruby/command-t/lib/command-t/finder.rb	/^    def initialize(path = Dir.pwd, options = {})$/;"	f	class:CommandT.Finder
+initialize	ruby/command-t/lib/command-t/finder/buffer_finder.rb	/^      def initialize$/;"	f	class:CommandT.Finder.BufferFinder
+initialize	ruby/command-t/lib/command-t/finder/command_finder.rb	/^      def initialize(options = {})$/;"	f	class:CommandT.Finder.CommandFinder
+initialize	ruby/command-t/lib/command-t/finder/file_finder.rb	/^      def initialize(path = Dir.pwd, options = {})$/;"	f	class:CommandT.Finder.FileFinder
+initialize	ruby/command-t/lib/command-t/finder/help_finder.rb	/^      def initialize(options = {})$/;"	f	class:CommandT.Finder.HelpFinder
+initialize	ruby/command-t/lib/command-t/finder/history_finder.rb	/^      def initialize(options = {})$/;"	f	class:CommandT.Finder.HistoryFinder
+initialize	ruby/command-t/lib/command-t/finder/jump_finder.rb	/^      def initialize$/;"	f	class:CommandT.Finder.JumpFinder
+initialize	ruby/command-t/lib/command-t/finder/line_finder.rb	/^      def initialize(options = {})$/;"	f	class:CommandT.Finder.LineFinder
+initialize	ruby/command-t/lib/command-t/finder/mru_buffer_finder.rb	/^      def initialize$/;"	f	class:CommandT.Finder.MRUBufferFinder
+initialize	ruby/command-t/lib/command-t/finder/tag_finder.rb	/^      def initialize(options = {})$/;"	f	class:CommandT.Finder.TagFinder
+initialize	ruby/command-t/lib/command-t/match_window.rb	/^    def initialize(options = {})$/;"	f	class:CommandT.MatchWindow
+initialize	ruby/command-t/lib/command-t/progress_reporter.rb	/^    def initialize$/;"	f	class:CommandT.ProgressReporter
+initialize	ruby/command-t/lib/command-t/prompt.rb	/^    def initialize(options = {})$/;"	f	class:CommandT.Prompt
+initialize	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^      def initialize(path = Dir.pwd, options = {})$/;"	f	class:CommandT.Scanner.FileScanner
+initialize	ruby/command-t/lib/command-t/scanner/history_scanner.rb	/^      def initialize(history_command)$/;"	f	class:CommandT.Scanner.HistoryScanner
+initialize	ruby/command-t/lib/command-t/scanner/tag_scanner.rb	/^      def initialize(options = {})$/;"	f	class:CommandT.Scanner.TagScanner
+initialize	ruby/command-t/lib/command-t/settings.rb	/^    def initialize$/;"	f	class:CommandT.Settings
+is_own_buffer	ruby/command-t/lib/command-t/controller.rb	/^    def is_own_buffer(buffer_number)$/;"	f	class:CommandT
+jump_finder	ruby/command-t/lib/command-t/controller.rb	/^    def jump_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+jumps	ruby/command-t/lib/command-t/scanner/jump_scanner.rb	/^      def jumps$/;"	f	class:CommandT.Scanner.JumpScanner
+last	ruby/command-t/lib/command-t/mru.rb	/^      def last$/;"	f	class:CommandT.MRU
+last_needle	ruby/command-t/ext/command-t/matcher.c	/^    VALUE last_needle;$/;"	m	struct:__anon4	file:
+leave	ruby/command-t/lib/command-t/controller.rb	/^    def leave$/;"	f	class:CommandT.quickfix
+leave	ruby/command-t/lib/command-t/match_window.rb	/^    def leave$/;"	f	class:CommandT.MatchWindow
+len	ruby/command-t/ext/command-t/watchman.c	/^    size_t len;     \/\/ current length$/;"	m	struct:__anon5	file:
+limit	ruby/command-t/ext/command-t/matcher.c	/^    long limit;$/;"	m	struct:__anon4	file:
+line	ruby/command-t/lib/command-t/match_window.rb	/^    def line(match_index)$/;"	f	class:CommandT.MatchWindow
+line_contains_filename?	ruby/command-t/lib/command-t/scanner/jump_scanner.rb	/^      def line_contains_filename?(line)$/;"	f	class:CommandT.Scanner.JumpScanner
+line_finder	ruby/command-t/lib/command-t/controller.rb	/^    def line_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+lines	ruby/command-t/lib/command-t/vim/screen.rb	/^        def lines$/;"	f	class:CommandT.VIM.Screen
+list_files	ruby/command-t/lib/command-t/scanner/file_scanner/git_file_scanner.rb	/^        def list_files(command)$/;"	f	class:CommandT.Scanner.FileScanner.GitFileScanner
+list_matches	ruby/command-t/lib/command-t/controller.rb	/^    def list_matches(options = {})$/;"	f	class:CommandT.quickfix
+list_matches!	ruby/command-t/lib/command-t/controller.rb	/^    def list_matches!$/;"	f	class:CommandT.quickfix
+little_endian?	spec/command-t/watchman/utils_spec.rb	/^  def little_endian?$/;"	f
+lock	ruby/command-t/lib/command-t/match_window.rb	/^    def lock$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+log	ruby/command-t/bin/commandtd	/^def log(msg)$/;"	f
+looped_symlink?	ruby/command-t/lib/command-t/scanner/file_scanner/ruby_file_scanner.rb	/^        def looped_symlink?(path)$/;"	f	class:CommandT.Scanner.FileScanner.RubyFileScanner
+mCommandT	ruby/command-t/ext/command-t/ext.c	/^VALUE mCommandT              = 0; \/\/ module CommandT$/;"	v
+mCommandTWatchman	ruby/command-t/ext/command-t/ext.c	/^VALUE mCommandTWatchman      = 0; \/\/ module CommandT::Watchman$/;"	v
+mCommandTWatchmanUtils	ruby/command-t/ext/command-t/ext.c	/^VALUE mCommandTWatchmanUtils = 0; \/\/ module CommandT::Watchman::Utils$/;"	v
+map	ruby/command-t/lib/command-t/controller.rb	/^    def map(key, function, param = nil)$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+match_limit	ruby/command-t/lib/command-t/controller.rb	/^    def match_limit$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+match_t	ruby/command-t/ext/command-t/match.h	/^} match_t;$/;"	t	typeref:struct:__anon3
+match_text_for_idx	ruby/command-t/lib/command-t/match_window.rb	/^    def match_text_for_idx(idx)$/;"	f	class:CommandT.MatchWindow
+match_thread	ruby/command-t/ext/command-t/matcher.c	/^void *match_thread(void *thread_args) {$/;"	f
+match_with_syntax_highlight	ruby/command-t/lib/command-t/match_window.rb	/^    def match_with_syntax_highlight(match)$/;"	f	class:CommandT.MatchWindow
+matcher	spec/command-t/matcher_spec.rb	/^  def matcher(*paths)$/;"	f
+matches	ruby/command-t/ext/command-t/matcher.c	/^    match_t *matches;$/;"	m	struct:__anon4	file:
+matches=	ruby/command-t/lib/command-t/match_window.rb	/^    def matches=(matches)$/;"	f	class:CommandT.MatchWindow
+matchinfo_t	ruby/command-t/ext/command-t/match.c	/^} matchinfo_t;$/;"	t	typeref:struct:__anon2	file:
+max_height	ruby/command-t/lib/command-t/controller.rb	/^    def max_height$/;"	f	class:CommandT.quickfix
+max_lines	ruby/command-t/lib/command-t/match_window.rb	/^    def max_lines$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+max_score_per_char	ruby/command-t/ext/command-t/match.c	/^    float   max_score_per_char;$/;"	m	struct:__anon2	file:
+maybe	bin/benchmarks/matcher.rb	/^def maybe(value, default = '')$/;"	f	class:significance
+memo	ruby/command-t/ext/command-t/match.c	/^    float   *memo;                  \/\/ Memoization.$/;"	m	struct:__anon2	file:
+min_height	ruby/command-t/lib/command-t/controller.rb	/^    def min_height$/;"	f	class:CommandT.quickfix
+move_cursor_to_selected_line	ruby/command-t/lib/command-t/match_window.rb	/^    def move_cursor_to_selected_line$/;"	f	class:CommandT.MatchWindow
+mru_finder	ruby/command-t/lib/command-t/controller.rb	/^    def mru_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+name	ruby/command-t/lib/command-t/finder.rb	/^    def name$/;"	f	class:CommandT.Finder
+name	ruby/command-t/lib/command-t/finder/buffer_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.BufferFinder
+name	ruby/command-t/lib/command-t/finder/command_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.CommandFinder
+name	ruby/command-t/lib/command-t/finder/file_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.FileFinder
+name	ruby/command-t/lib/command-t/finder/help_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.HelpFinder
+name	ruby/command-t/lib/command-t/finder/history_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.HistoryFinder
+name	ruby/command-t/lib/command-t/finder/jump_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.JumpFinder
+name	ruby/command-t/lib/command-t/finder/line_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.LineFinder
+name	ruby/command-t/lib/command-t/finder/mru_buffer_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.MRUBufferFinder
+name	ruby/command-t/lib/command-t/finder/tag_finder.rb	/^      def name$/;"	f	class:CommandT.Finder.TagFinder
+nearest_ancestor	ruby/command-t/lib/command-t/scm_utilities.rb	/^    def nearest_ancestor(starting_directory, markers)$/;"	f	class:CommandT.SCMUtilities
+needle	ruby/command-t/ext/command-t/matcher.c	/^    VALUE needle;$/;"	m	struct:__anon4	file:
+needle_bitmask	ruby/command-t/ext/command-t/matcher.c	/^    long needle_bitmask;$/;"	m	struct:__anon4	file:
+needle_len	ruby/command-t/ext/command-t/match.c	/^    long    needle_len;             \/\/ Length of same.$/;"	m	struct:__anon2	file:
+needle_p	ruby/command-t/ext/command-t/match.c	/^    char    *needle_p;              \/\/ Pointer to search string (needle).$/;"	m	struct:__anon2	file:
+never_show_dot_files	ruby/command-t/ext/command-t/match.c	/^    int     never_show_dot_files;   \/\/ Boolean.$/;"	m	struct:__anon2	file:
+never_show_dot_files	ruby/command-t/ext/command-t/matcher.c	/^    VALUE never_show_dot_files;$/;"	m	struct:__anon4	file:
+open_selection	ruby/command-t/lib/command-t/controller.rb	/^    def open_selection(selection, options = {})$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+open_selection	ruby/command-t/lib/command-t/finder.rb	/^    def open_selection(command, selection, options = {})$/;"	f	class:CommandT.Finder
+open_selection	ruby/command-t/lib/command-t/finder/command_finder.rb	/^      def open_selection(command, selection, options = {})$/;"	f	class:CommandT.Finder.CommandFinder
+open_selection	ruby/command-t/lib/command-t/finder/help_finder.rb	/^      def open_selection(command, selection, options = {})$/;"	f	class:CommandT.Finder.HelpFinder
+open_selection	ruby/command-t/lib/command-t/finder/history_finder.rb	/^      def open_selection(command, selection, options = {})$/;"	f	class:CommandT.Finder.HistoryFinder
+open_selection	ruby/command-t/lib/command-t/finder/line_finder.rb	/^      def open_selection(command, selection, options = {})$/;"	f	class:CommandT.Finder.LineFinder
+open_selection	ruby/command-t/lib/command-t/finder/tag_finder.rb	/^      def open_selection(command, selection, options = {})$/;"	f	class:CommandT.Finder.TagFinder
+ordered_matches	spec/command-t/matcher_spec.rb	/^    def ordered_matches(paths, query)$/;"	f
+padding_for_selected_match	ruby/command-t/lib/command-t/match_window.rb	/^    def padding_for_selected_match(str)$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+parens	bin/benchmarks/matcher.rb	/^def parens(x)$/;"	f	class:significance
+path	ruby/command-t/ext/command-t/match.h	/^    VALUE path;$/;"	m	struct:__anon3
+path	ruby/command-t/lib/command-t/controller.rb	/^    def path$/;"	f	class:CommandT
+path	ruby/command-t/lib/command-t/stub.rb	/^    def path$/;"	f	class:CommandT.Stub
+path=	ruby/command-t/lib/command-t/finder.rb	/^    def path=(path)$/;"	f	class:CommandT.Finder
+path_count	ruby/command-t/ext/command-t/matcher.c	/^    long path_count;$/;"	m	struct:__anon4	file:
+path_excluded?	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^      def path_excluded?(path, prefix_len = @prefix_len)$/;"	f	class:CommandT.Scanner.FileScanner
+paths	ruby/command-t/lib/command-t/scanner.rb	/^    def paths$/;"	f	class:CommandT.Scanner
+paths	ruby/command-t/lib/command-t/scanner/buffer_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.BufferScanner
+paths	ruby/command-t/lib/command-t/scanner/command_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.CommandScanner
+paths	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.FileScanner
+paths	ruby/command-t/lib/command-t/scanner/help_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.HelpScanner
+paths	ruby/command-t/lib/command-t/scanner/history_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.HistoryScanner
+paths	ruby/command-t/lib/command-t/scanner/jump_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.JumpScanner
+paths	ruby/command-t/lib/command-t/scanner/line_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.LineScanner
+paths	ruby/command-t/lib/command-t/scanner/mru_buffer_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.MRUBufferScanner
+paths	ruby/command-t/lib/command-t/scanner/tag_scanner.rb	/^      def paths$/;"	f	class:CommandT.Scanner.TagScanner
+paths!	ruby/command-t/lib/command-t/scanner/buffer_scanner.rb	/^      def paths!$/;"	f	class:CommandT.Scanner.BufferScanner
+paths!	ruby/command-t/lib/command-t/scanner/command_scanner.rb	/^      def paths!$/;"	f	class:CommandT.Scanner.CommandScanner
+paths!	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^      def paths!$/;"	f	class:CommandT.Scanner.FileScanner
+paths!	ruby/command-t/lib/command-t/scanner/file_scanner/find_file_scanner.rb	/^        def paths!$/;"	f	class:CommandT.Scanner.FileScanner.FindFileScanner
+paths!	ruby/command-t/lib/command-t/scanner/file_scanner/git_file_scanner.rb	/^        def paths!$/;"	f	class:CommandT.Scanner.FileScanner.GitFileScanner
+paths!	ruby/command-t/lib/command-t/scanner/file_scanner/ruby_file_scanner.rb	/^        def paths!$/;"	f	class:CommandT.Scanner.FileScanner.RubyFileScanner
+paths!	ruby/command-t/lib/command-t/scanner/file_scanner/watchman_file_scanner.rb	/^        def paths!$/;"	f	class:CommandT.Scanner.FileScanner.WatchmanFileScanner
+paths!	ruby/command-t/lib/command-t/scanner/help_scanner.rb	/^      def paths!$/;"	f	class:CommandT.Scanner.HelpScanner
+paths!	ruby/command-t/lib/command-t/scanner/history_scanner.rb	/^      def paths!$/;"	f	class:CommandT.Scanner.HistoryScanner
+paths!	ruby/command-t/lib/command-t/scanner/jump_scanner.rb	/^      def paths!$/;"	f	class:CommandT.Scanner.JumpScanner
+paths!	ruby/command-t/lib/command-t/scanner/line_scanner.rb	/^      def paths!$/;"	f	class:CommandT.Scanner.LineScanner
+paths!	ruby/command-t/lib/command-t/scanner/mru_buffer_scanner.rb	/^      def paths!$/;"	f	class:CommandT.Scanner.MRUBufferScanner
+prepare_selection	ruby/command-t/lib/command-t/finder/command_finder.rb	/^      def prepare_selection(selection)$/;"	f	class:CommandT.Finder.CommandFinder
+prepare_selection	ruby/command-t/lib/command-t/finder/help_finder.rb	/^      def prepare_selection(selection)$/;"	f	class:CommandT.Finder.HelpFinder
+prepare_selection	ruby/command-t/lib/command-t/finder/history_finder.rb	/^      def prepare_selection(selection)$/;"	f	class:CommandT.Finder.HistoryFinder
+prepare_selection	ruby/command-t/lib/command-t/finder/tag_finder.rb	/^      def prepare_selection(selection)$/;"	f	class:CommandT.Finder.TagFinder
+print_error	ruby/command-t/lib/command-t/match_window.rb	/^    def print_error(msg)$/;"	f	class:CommandT.MatchWindow
+print_match	ruby/command-t/lib/command-t/match_window.rb	/^    def print_match(idx)$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+print_matches	ruby/command-t/lib/command-t/match_window.rb	/^    def print_matches$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+print_no_such_file_or_directory	ruby/command-t/lib/command-t/match_window.rb	/^    def print_no_such_file_or_directory$/;"	f	class:CommandT.MatchWindow
+print_table	bin/benchmarks/matcher.rb	/^def print_table(rows)$/;"	f	class:significance
+processor_count	ruby/command-t/lib/command-t/util.rb	/^      def processor_count$/;"	f	class:CommandT.Util
+processor_count!	ruby/command-t/lib/command-t/util.rb	/^      def processor_count!$/;"	f	class:CommandT.Util
+progress_reporter	ruby/command-t/lib/command-t/scanner.rb	/^    def progress_reporter$/;"	f	class:CommandT.Scanner
+prompt	ruby/command-t/lib/command-t/controller.rb	/^    def prompt$/;"	f	class:CommandT.quickfix
+pwd	ruby/command-t/lib/command-t/vim.rb	/^      def pwd$/;"	f	class:CommandT.VIM
+quickfix	ruby/command-t/lib/command-t/controller.rb	/^    def quickfix$/;"	f	class:CommandT
+read	ruby/command-t/bin/commandtd	/^def read$/;"	f
+recurse	ruby/command-t/ext/command-t/match.c	/^    int     recurse;                \/\/ Boolean.$/;"	m	struct:__anon2	file:
+recurse	ruby/command-t/ext/command-t/matcher.c	/^    VALUE recurse;$/;"	m	struct:__anon4	file:
+recursive_match	ruby/command-t/ext/command-t/match.c	/^float recursive_match($/;"	f
+redraw	ruby/command-t/lib/command-t/prompt.rb	/^    def redraw$/;"	f	class:CommandT.Prompt
+refresh	ruby/command-t/lib/command-t/controller.rb	/^    def refresh$/;"	f	class:CommandT.quickfix
+register_for_key_presses	ruby/command-t/lib/command-t/controller.rb	/^    def register_for_key_presses$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+relative_path_under_working_directory	ruby/command-t/lib/command-t/path_utilities.rb	/^    def relative_path_under_working_directory(path)$/;"	f	class:CommandT.PathUtilities
+remove_buffer	ruby/command-t/lib/command-t/controller.rb	/^    def remove_buffer$/;"	f	class:CommandT.quickfix
+restore	ruby/command-t/lib/command-t/settings.rb	/^    def restore$/;"	f	class:CommandT.Settings
+restore_window_views	ruby/command-t/lib/command-t/match_window.rb	/^    def restore_window_views$/;"	f	class:CommandT.MatchWindow
+return_is_own_buffer	ruby/command-t/lib/command-t/controller.rb	/^    def return_is_own_buffer(buffer_number)$/;"	f	class:CommandT
+return_is_own_buffer	ruby/command-t/lib/command-t/stub.rb	/^    def return_is_own_buffer$/;"	f	class:CommandT.Stub
+rightmost_match_p	ruby/command-t/ext/command-t/match.c	/^    long    *rightmost_match_p;     \/\/ Rightmost match for each char in needle.$/;"	m	struct:__anon2	file:
+roundtrip	spec/command-t/watchman/utils_spec.rb	/^  def roundtrip(value)$/;"	f
+run_autocmd	ruby/command-t/lib/command-t/match_window.rb	/^    def run_autocmd(cmd)$/;"	f	class:CommandT.MatchWindow
+run_did_hide_autocmd	ruby/command-t/lib/command-t/match_window.rb	/^    def run_did_hide_autocmd$/;"	f	class:CommandT.MatchWindow
+run_will_show_autocmd	ruby/command-t/lib/command-t/match_window.rb	/^    def run_will_show_autocmd$/;"	f	class:CommandT.MatchWindow
+s:script_directory	autoload/commandt/isengard.vim	/^let s:script_directory=expand('<sfile>:p:h')$/;"	v
+sanitize_path_string	ruby/command-t/lib/command-t/controller.rb	/^    def sanitize_path_string(str)$/;"	f	class:CommandT.quickfix
+scm_markers	ruby/command-t/lib/command-t/controller.rb	/^    def scm_markers$/;"	f	class:CommandT.quickfix
+score	ruby/command-t/ext/command-t/match.h	/^    float score;$/;"	m	struct:__anon3
+search_finder	ruby/command-t/lib/command-t/controller.rb	/^    def search_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+select	ruby/command-t/lib/command-t/vim/window.rb	/^        def select(window)$/;"	f	class:CommandT.VIM.Window
+select_next	ruby/command-t/lib/command-t/controller.rb	/^    def select_next$/;"	f	class:CommandT.quickfix
+select_next	ruby/command-t/lib/command-t/match_window.rb	/^    def select_next$/;"	f	class:CommandT.MatchWindow
+select_prev	ruby/command-t/lib/command-t/controller.rb	/^    def select_prev$/;"	f	class:CommandT.quickfix
+select_prev	ruby/command-t/lib/command-t/match_window.rb	/^    def select_prev$/;"	f	class:CommandT.MatchWindow
+selection	ruby/command-t/lib/command-t/match_window.rb	/^    def selection$/;"	f	class:CommandT.MatchWindow
+set	ruby/command-t/lib/command-t/match_window.rb	/^    def set(setting, value)$/;"	f	class:CommandT.MatchWindow
+set	ruby/command-t/lib/command-t/settings.rb	/^    def set(setting, value)$/;"	f	class:CommandT.Settings
+set_bool	ruby/command-t/lib/command-t/settings.rb	/^    def set_bool(setting, value)$/;"	f	class:CommandT.Settings
+set_number	ruby/command-t/lib/command-t/settings.rb	/^    def set_number(setting, value)$/;"	f	class:CommandT.Settings
+set_status	ruby/command-t/lib/command-t/prompt.rb	/^    def set_status(*args)$/;"	f	class:CommandT.Prompt
+set_string	spec/command-t/controller_spec.rb	/^    def set_string(name, value)$/;"	f
+set_up_autocmds	ruby/command-t/lib/command-t/controller.rb	/^    def set_up_autocmds$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+show	ruby/command-t/lib/command-t/controller.rb	/^    def show$/;"	f	class:CommandT.quickfix
+show_buffer_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_buffer_finder$/;"	f	class:CommandT
+show_command_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_command_finder$/;"	f	class:CommandT
+show_cursor	ruby/command-t/lib/command-t/match_window.rb	/^    def show_cursor$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+show_file_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_file_finder$/;"	f	class:CommandT
+show_help_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_help_finder$/;"	f	class:CommandT
+show_history_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_history_finder$/;"	f	class:CommandT
+show_jump_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_jump_finder$/;"	f	class:CommandT
+show_line_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_line_finder$/;"	f	class:CommandT
+show_max_files_warning	ruby/command-t/lib/command-t/scanner/file_scanner.rb	/^      def show_max_files_warning$/;"	f	class:CommandT.Scanner.FileScanner
+show_mru_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_mru_finder$/;"	f	class:CommandT
+show_search_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_search_finder$/;"	f	class:CommandT
+show_tag_finder	ruby/command-t/lib/command-t/controller.rb	/^    def show_tag_finder$/;"	f	class:CommandT
+significance	bin/benchmarks/matcher.rb	/^def significance(last, current)$/;"	f
+sorted_matches_for	ruby/command-t/lib/command-t/finder.rb	/^    def sorted_matches_for(str, options = {})$/;"	f	class:CommandT.Finder
+sorted_matches_for	ruby/command-t/lib/command-t/finder/mru_buffer_finder.rb	/^      def sorted_matches_for(str, options = {})$/;"	f	class:CommandT.Finder.MRUBufferFinder
+split_command	ruby/command-t/lib/command-t/controller.rb	/^    def split_command$/;"	f	class:CommandT.quickfix
+stack	ruby/command-t/lib/command-t/mru.rb	/^      def stack$/;"	f	class:CommandT.MRU
+stub_finder	spec/command-t/controller_spec.rb	/^  def stub_finder(sorted_matches=[])$/;"	f
+stub_match_window	spec/command-t/controller_spec.rb	/^  def stub_match_window(selection)$/;"	f
+stub_prompt	spec/command-t/controller_spec.rb	/^  def stub_prompt(abbrev='')$/;"	f
+stub_vim	spec/command-t/controller_spec.rb	/^  def stub_vim(working_directory)$/;"	f
+tab_command	ruby/command-t/lib/command-t/controller.rb	/^    def tab_command$/;"	f	class:CommandT.quickfix
+tag_finder	ruby/command-t/lib/command-t/controller.rb	/^    def tag_finder$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+taglist	ruby/command-t/lib/command-t/scanner/tag_scanner.rb	/^      def taglist$/;"	f	class:CommandT.Scanner.TagScanner.paths
+term	ruby/command-t/lib/command-t/controller.rb	/^    def term$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+thread_args_t	ruby/command-t/ext/command-t/matcher.c	/^} thread_args_t;$/;"	t	typeref:struct:__anon4	file:
+thread_count	ruby/command-t/ext/command-t/matcher.c	/^    long thread_count;$/;"	m	struct:__anon4	file:
+thread_index	ruby/command-t/ext/command-t/matcher.c	/^    long thread_index;$/;"	m	struct:__anon4	file:
+toggle_focus	ruby/command-t/lib/command-t/controller.rb	/^    def toggle_focus$/;"	f	class:CommandT.quickfix
+touch	ruby/command-t/lib/command-t/mru.rb	/^      def touch$/;"	f	class:CommandT.MRU
+trim	bin/benchmarks/matcher.rb	/^def trim(str)$/;"	f	class:significance
+truncated_match	ruby/command-t/lib/command-t/match_window.rb	/^    def truncated_match(str)$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+unfocus	ruby/command-t/lib/command-t/match_window.rb	/^    def unfocus$/;"	f	class:CommandT.MatchWindow
+unfocus	ruby/command-t/lib/command-t/prompt.rb	/^    def unfocus$/;"	f	class:CommandT.Prompt
+unload	ruby/command-t/lib/command-t/controller.rb	/^    def unload$/;"	f	class:CommandT.quickfix
+unload	ruby/command-t/lib/command-t/match_window.rb	/^    def unload$/;"	f	class:CommandT.MatchWindow
+unlock	ruby/command-t/lib/command-t/match_window.rb	/^    def unlock$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+update	ruby/command-t/lib/command-t/controller.rb	/^    def update$/;"	f	class:CommandT.quickfix
+update	ruby/command-t/lib/command-t/progress_reporter.rb	/^    def update(count)$/;"	f	class:CommandT.ProgressReporter
+vsplit_command	ruby/command-t/lib/command-t/controller.rb	/^    def vsplit_command$/;"	f	class:CommandT.quickfix
+warn	ruby/command-t/lib/command-t/stub.rb	/^    def warn(*msg)$/;"	f	class:CommandT.Stub
+watchman_append	ruby/command-t/ext/command-t/watchman.c	/^void watchman_append(watchman_t *w, const char *data, size_t len) {$/;"	f
+watchman_array_marker	ruby/command-t/ext/command-t/watchman.c	/^static const char watchman_array_marker  = WATCHMAN_ARRAY_MARKER;$/;"	v	file:
+watchman_dump	ruby/command-t/ext/command-t/watchman.c	/^void watchman_dump(watchman_t *w, VALUE serializable) {$/;"	f
+watchman_dump_array	ruby/command-t/ext/command-t/watchman.c	/^void watchman_dump_array(watchman_t *w, VALUE array) {$/;"	f
+watchman_dump_double	ruby/command-t/ext/command-t/watchman.c	/^void watchman_dump_double(watchman_t *w, double num) {$/;"	f
+watchman_dump_hash	ruby/command-t/ext/command-t/watchman.c	/^void watchman_dump_hash(watchman_t *w, VALUE hash) {$/;"	f
+watchman_dump_hash_iterator	ruby/command-t/ext/command-t/watchman.c	/^int watchman_dump_hash_iterator(VALUE key, VALUE value, VALUE data) {$/;"	f
+watchman_dump_int	ruby/command-t/ext/command-t/watchman.c	/^void watchman_dump_int(watchman_t *w, int64_t num) {$/;"	f
+watchman_dump_string	ruby/command-t/ext/command-t/watchman.c	/^void watchman_dump_string(watchman_t *w, VALUE string) {$/;"	f
+watchman_false	ruby/command-t/ext/command-t/watchman.c	/^static const char watchman_false         = WATCHMAN_FALSE;$/;"	v	file:
+watchman_free	ruby/command-t/ext/command-t/watchman.c	/^void watchman_free(watchman_t *w) {$/;"	f
+watchman_hash_marker	ruby/command-t/ext/command-t/watchman.c	/^static const char watchman_hash_marker   = WATCHMAN_HASH_MARKER;$/;"	v	file:
+watchman_init	ruby/command-t/ext/command-t/watchman.c	/^watchman_t *watchman_init() {$/;"	f
+watchman_load	ruby/command-t/ext/command-t/watchman.c	/^VALUE watchman_load(char **ptr, char *end) {$/;"	f
+watchman_load_array	ruby/command-t/ext/command-t/watchman.c	/^VALUE watchman_load_array(char **ptr, char *end) {$/;"	f
+watchman_load_array_header	ruby/command-t/ext/command-t/watchman.c	/^int64_t watchman_load_array_header(char **ptr, char *end) {$/;"	f
+watchman_load_double	ruby/command-t/ext/command-t/watchman.c	/^double watchman_load_double(char **ptr, char *end) {$/;"	f
+watchman_load_hash	ruby/command-t/ext/command-t/watchman.c	/^VALUE watchman_load_hash(char **ptr, char *end) {$/;"	f
+watchman_load_int	ruby/command-t/ext/command-t/watchman.c	/^int64_t watchman_load_int(char **ptr, char *end) {$/;"	f
+watchman_load_string	ruby/command-t/ext/command-t/watchman.c	/^VALUE watchman_load_string(char **ptr, char *end) {$/;"	f
+watchman_load_template	ruby/command-t/ext/command-t/watchman.c	/^VALUE watchman_load_template(char **ptr, char *end) {$/;"	f
+watchman_nil	ruby/command-t/ext/command-t/watchman.c	/^static const char watchman_nil           = WATCHMAN_NIL;$/;"	v	file:
+watchman_raise_system_call_error	ruby/command-t/ext/command-t/watchman.c	/^void watchman_raise_system_call_error(int number) {$/;"	f
+watchman_string_marker	ruby/command-t/ext/command-t/watchman.c	/^static const char watchman_string_marker = WATCHMAN_STRING_MARKER;$/;"	v	file:
+watchman_t	ruby/command-t/ext/command-t/watchman.c	/^} watchman_t;$/;"	t	typeref:struct:__anon5	file:
+watchman_true	ruby/command-t/ext/command-t/watchman.c	/^static const char watchman_true          = WATCHMAN_TRUE;$/;"	v	file:
+wildignore	ruby/command-t/lib/command-t/controller.rb	/^    def wildignore$/;"	f	class:CommandT.quickfix.ensure_appropriate_window_selection
+wildignore_to_regexp	ruby/command-t/lib/command-t/vim.rb	/^      def wildignore_to_regexp(str)$/;"	f	class:CommandT.VIM
+write	ruby/command-t/bin/commandtd	/^def write(payload)$/;"	f
