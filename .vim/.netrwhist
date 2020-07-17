@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/sxyu/proj/nivalis/build-emcc'
+let g:netrw_dirhist_2='/home/sxyu/proj/nivalis'
+let g:netrw_dirhist_1='/home/sxyu/proj/nivalis/build-emcc'
+let g:netrw_dirhist_0='/home/sxyu/proj/nivalis/build-emcc/include'
+let g:netrw_dirhist_9='/home/sxyu/proj/nivalis/build-emcc'
+let g:netrw_dirhist_8='/home/sxyu/proj/nivalis/build-emcc/include'
+let g:netrw_dirhist_7='/home/sxyu/builds/mathquill/src/services'
+let g:netrw_dirhist_6='/home/sxyu/builds/mathquill/src'
+let g:netrw_dirhist_5='/home/sxyu/proj/nivalis/build-emcc'
+let g:netrw_dirhist_4='/home/sxyu/proj/nivalis/build-emcc/include'
