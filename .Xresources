@@ -1,0 +1,184 @@
+#define FG #d8dee8
+#define BG #2f343f
+#define C0 #4b5262
+#define C8 #838a9a
+#define C1 #6286f4
+#define C9 #b3555e
+#define C2 #a3be8c
+#define C10 #93ae7c
+#define C3 #ebcb8b
+#define C11 #dbbb7b
+#define C4 #81a1c1
+#define C12 #7191b1
+#define C5 #b48ead
+#define C13 #a6809f
+#define C6 #89d0bA
+#define C14 #7dbba8
+#define C7 #e5e9f0
+#define C15 #d1d5dc
+
+#define A0 #666666
+
+
+! special
+*.foreground:   #d8dee8
+*.background:   #202123
+
+! black
+*.color0  : #4b5262
+*.color8  : #999766
+*.color1  : #888888
+
+! red
+*.color9  : #ff555e
+
+! green
+*.color2  : #a3be8c
+*.color10 : #93ae7c
+
+! yellow
+*.color3  : #ebcb8b
+*.color11 : #dbbb7b
+
+! blue
+*.color4  : #81a1c1
+*.color12 : #7191b1
+
+! magenta
+*.color5  : #b48ead
+*.color13 : #a6809f
+
+! cyan
+*.color6  : #89d0bA
+*.color14 : #7dbba8
+
+! white
+*.color7  : #e5e9f0
+*.color15 : #d1d5dc
+*.polybar.value:  ALT1
+*.polybar.icon:   ALT2
+
+
+!URxvt*transparent:        true
+!URxvt*shading:            24
+!URxvt.underlineColor:   #81a1c1
+!URxvt.highlightColor:   #7191b1
+!URxvt.throughColor:     #93e5cc
+URxvt*cursorColor:      #ff00ee
+URxvt*cursorColor2:     BG
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:  false
+URxvt*internalBorder:   0
+URxvt*externalBorder:   0
+! URxvt.colorIT:      	#a3be8c
+! URxvt.colorBD:      	#e5e9f0
+! URxvt.colorUL:      	#81a1c1
+URxvt.geometry: 		140x40
+URxvt.internalBorder:	9
+! URxvt*letterSpace: 	    0
+URxvt*lineSpace: 		0
+URxvt*font:             xft:Iosevka Term:regular:size=12
+URxvt*imFont:           xft:Iosevka Term:regular:size=12
+URxvt*boldFont:         xft:Iosevka Term:bold:size=12
+URxvt*italicFont:       xft:Iosevka Term:regular:size=12
+URxvt*boldItalicFont:   xft:Iosevka Term:regular:size=12
+
+! ------------------------------------------------------------------------------
+! Xft Font Configuration
+! ------------------------------------------------------------------------------
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 0
+Xft.antialias: 1
+Xft.rgba: rgb
+
+! rofi
+rofi.color-window: BG, C1, C1
+rofi.color-normal: BG, FG, BG, BG, C3
+rofi.color-active: BG, FG, BG, BG, C3
+rofi.color-urgent: BG, FG, BG, BG, C3
+rofi.bgalt: 	   C3
+rofi.bw:           6
+rofi.location:     3
+rofi.yoffset:     52
+rofi.xoffset:     -160
+rofi.width:        20
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+setxkbmap -option caps:escape &⎋
+
+URxvt*scrollTtyOutput:      false
+URxvt*scrollWithBuffer:     true
+URxvt*scrollTtyKeypress:    true
+URxvt*saveLines:  65535
+
+URxvt.perl-ext-common: default,matcher,tabbedex,clipboard
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg5
+
+URxvt.tabbed.tabbar-fg: 1
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 4
+URxvt.tabbed.tab-bg: 0
+URxvt.tabbed.title-bg: 0
+URxvt.tabbed.autohide:  true
+URxvt.tabbed.new-button:  yes
+URxvt.tabbed.title: yes
+URxvt.tabbed.no-tabbedex-keys: true
+
+URxvt.keysym.Control-Up:     \033[1;5A
+URxvt.keysym.Control-Down:   \033[1;5B
+URxvt.keysym.Control-Left:   \033[1;5D
+URxvt.keysym.Control-Right:  \033[1;5C
+URXvt.tabbed.reopen-on-close: true
+
+URxvt.keysym.Control-t: perl:tabbedex:new_tab
+URxvt.keysym.Control-Tab: perl:tabbedex:next_tab
+URxvt.keysym.Control-Shift-Tab: perl:tabbedex:prev_tab
+URxvt.keysym.Control-Shift-Left: perl:tabbedex:move_tab_left
+URxvt.keysym.Control-Shift-Right: perl:tabbedex:move_tab_right
+URxvt.keysym.Control-Shift-R: perl:tabbedex:rename_tab
+
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/aaaa
+
+URxvt.color24:  #076678
+URxvt.color66:  #427b58
+URxvt.color88:  #9d0006
+URxvt.color96:  #8f3f71
+URxvt.color100: #79740e
+URxvt.color108: #8ec07c
+URxvt.color109: #83a598
+URxvt.color130: #af3a03
+URxvt.color136: #b57614
+URxvt.color142: #b8bb26
+URxvt.color167: #fb4934
+URxvt.color175: #d3869b
+URxvt.color208: #fe8019
+URxvt.color214: #fabd2f
+URxvt.color223: #ebdbb2
+URxvt.color228: #f2e5bc
+URxvt.color229: #fbf1c7
+URxvt.color230: #f9f5d7
+URxvt.color234: #1d2021
+URxvt.color235: #282828
+URxvt.color236: #32302f
+URxvt.color237: #3c3836
+URxvt.color239: #504945
+URxvt.color241: #665c54
+URxvt.color243: #7c6f64
+URxvt.color244: #928374
+URxvt.color245: #928374
+URxvt.color246: #a89984
+URxvt.color248: #222222
+URxvt.color250: #d5c4a1
+
+! URxvt.clipboard.autocopy: true
+! URxvt.keysym.Shift-Control-V:eval:paste_clipboard
+! URxvt.keysym.Shift-Control-C:eval:selection_to_clipboard
+URxvt.keysym.Shift-Control-C:perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
