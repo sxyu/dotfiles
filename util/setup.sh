@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt -y install xclip
 sudo apt -y install net-tools axel
-sudo apt -y install libxrandr-dev
+sudo apt -y install libxrandr-dev libxinerama-dev libxcursor-dev
 sudo apt -y install rxvt-unicode-256color
 sudo cp /usr/share/terminfo/r/rxvt-256color /usr/share/terminfo/r/rxvt-unicode-256color
 cp /usr/share/terminfo/r/rxvt-unicode-256color ~/miniconda3/share/terminfo/r/
