@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "coc-cmake": ">=0.0.1",
+    "coc-diagnostic": ">=0.2.8",
+    "coc-fish": ">=1.0.11",
+    "coc-html": ">=1.2.4",
+    "coc-json": ">=1.2.6",
+    "coc-python": ">=1.2.12",
+    "coc-sql": ">=0.2.26",
+    "coc-texlab": ">=2.1.0",
+    "coc-xml": ">=1.11.1"
+  }
+}

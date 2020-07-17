@@ -1,0 +1,20 @@
+{
+  "commands": {
+    "%2Fhome%2Fsxyu%2Fproj%2Fsmpl": [
+      ":w",
+      "exit"
+    ]
+  },
+  "diagnostics": {
+    "%2Fhome%2Fsxyu%2Fproj%2Fsmpl": [
+      "k"
+    ]
+  },
+  "symbols": {
+    "%2Fhome%2Fsxyu%2Fproj%2Fsmpl": [
+      "exit",
+      "Model(",
+      "Model"
+    ]
+  }
+}

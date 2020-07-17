@@ -1,0 +1,79 @@
+#! /bin/sh
+
+sxhkd &
+#wal -R
+
+xsetroot -cursor_name left_ptr &
+bspc monitor -d 1 2 3 4 5 6 7 8
+
+background=$(xrdb -query | grep "background" | cut -f2 | sed -r 's/#//' | head -n 1)
+foreground=$(xrdb -query | grep "foreground" | cut -f2 | sed -r 's/#//' | head -n 1)
+color0=$(xrdb -query | grep "color0" | cut -f2 | sed -r 's/#//' | head -n 1)
+color1=$(xrdb -query | grep "color1" | cut -f2 | sed -r 's/#//' | head -n 1)
+color2=$(xrdb -query | grep "color2" | cut -f2 | sed -r 's/#//' | head -n 1)
+color3=$(xrdb -query | grep "color3" | cut -f2 | sed -r 's/#//' | head -n 1)
+color4=$(xrdb -query | grep "color4" | cut -f2 | sed -r 's/#//' | head -n 1)
+color5=$(xrdb -query | grep "color5" | cut -f2 | sed -r 's/#//' | head -n 1)
+color6=$(xrdb -query | grep "color6" | cut -f2 | sed -r 's/#//' | head -n 1)
+color7=$(xrdb -query | grep "color7" | cut -f2 | sed -r 's/#//' | head -n 1)
+color8=$(xrdb -query | grep "color8" | cut -f2 | sed -r 's/#//' | head -n 1)
+
+bspc config border_width        0
+bspc config window_gap          0
+bspc config top_padding         10
+bspc config bottom_padding      0
+bspc config left_padding        0
+bspc config right_padding       0
+
+bspc config normal_border_color "#000011"
+bspc config focused_border_color "#$color1"
+bspc config presel_feedback_color  "#$color1"
+bspc config split_ratio          0.50
+bspc config borderless_monocle   false
+bspc config gapless_monocle      false
+bspc config click_to_focus       button1
+
+feh --bg-fill /usr/share/backgrounds/Forever_by_Shady_S.jpg
+
+polybar --reload x &
+
+compton -b --config /home/sxyu/.config/compton/compton.conf &
+bspc config external_rules_command ~/.config/bspwm/external_rules
+
+#bspc rule -a Gimp desktop='^8'
+#bspc rule -a Chromium desktop='^2'
+#bspc rule -a mplayer2 state=floating
+#bspc rule -a Kupfer.py focus=on
+#bspc rule -a Screenkey manage=off
+bspc rule -a "Nivalis Plotter" state=floating
+bspc rule -a feh state=floating rectangle=1200x900+320+100
+
+bash ~/.config/mons.sh
+touchpad-indicator&
+
+sleep 1
+setxkbmap -option caps:escape
+# xinput set-button-map 'Elan Touchpad' 1 2 3 5 4 6 7 8 9 10 11 12
+xinput  --set-prop 'Elan Touchpad' 'Device Accel Constant Deceleration' 0.
+xinput  --set-prop 'Elan Touchpad'  'Device Accel Profile' 0
+xinput  --set-prop 'Elan Touchpad' 'Device Accel Velocity Scaling' 1.0
+
+# Shifts screen color to red when sun is down
+redshift -c ~/.config/redshift/redshift.conf & 2> /dev/null
+#set redshift location
+
+# ---window layout on login---
+# urxvt &
+#syndaemon -d -t
+
+gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/Forever_by_Shady_S.jpg
+
+# Bluetooth
+#pactl load-module module-switch-on-connect
+#pactl load-module module-bluetooth-discover
+#blueman-applet
+stty -ixon
+
+bspc rule -a URxvt:dropdown sticky=on state=floating hidden=on
+bspc rule -a URxvt:perf sticky=on state=floating
+urxvt -name dropdown -e fish

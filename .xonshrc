@@ -1,0 +1,90 @@
+aliases["apti"] = 'sudo apt install -y'
+aliases["aptp"] = 'sudo apt purge -y'
+aliases["sl"] = 'ls' # typos
+aliases["ll"] = 'ls -alF'
+aliases["la"] = 'ls -A'
+aliases["cls"] = 'clear&&ls'
+aliases["l"] = 'ls -CF'
+aliases["ssh-add-id"] = 'ssh-add ~/.ssh/id_rsa'
+aliases["alias-reload"] = 'source ~/.xonshrc'
+aliases["toupper"] = 'tr a-z A-Z'
+aliases["tolower"] = 'tr A-Z a-z'
+aliases["flipcase"] = 'tr a-zA-Z A-Za-z'
+aliases["cuuid"] = 'uuid | tr a-z- A-Z_'
+aliases["trim"] = "awk '{$1=$1};1'"
+aliases["wl-startmon"] = 'sudo airmon-ng start wlp3s0'
+aliases["wldevs"] = 'nmcli device status'
+aliases["wllist"] = 'nmcli -f SSID,BSSID,DEVICE dev wifi'
+aliases["wldump"] = 'sudo airodump-ng -c 9 -w cowpatty mon0 --bssid'
+aliases["wlscan"] = 'nmap -sP'
+aliases["cd.."] = 'cd ..'
+aliases["cd."] = 'cd ..'
+aliases["cd-cur"] = 'cd ~/_current'
+aliases["steamcmd-win"] = 'steamcmd +@sSteamCmdForcePlatformType windows'
+aliases["cp"] = 'rsync -ah --progress'
+# TIP: login / force_install_dir / app_update <appid>
+
+aliases["ssh-blpc0"] = 'ssh -Y -t digilab ssh -Y -t  ayu@blph0.ssl.berkeley.edu ssh -Y ayu@blpc0'
+aliases["ssh-blpc1"] = 'ssh -Y -t digilab ssh -Y -t  ayu@blph0.ssl.berkeley.edu ssh -Y ayu@blpc1'
+aliases["ssh-portable"] = 'ssh -Y -t vivelab1 ssh -Y portable'
+aliases["ssh-vive"] = 'ssh -Y vivelab1'
+aliases["sshy"] = 'ssh -Y'
+#alias python='python3'
+aliases["tor"] = 'nohup ~/Downloads/tor-browser_en-US/Browser/start-tor-browser >/dev/null 2>&1 &'
+aliases["android-studio"] = 'nohup ~/Downloads/android-studio/bin/studio.sh >/dev/null 2>&1 &'
+aliases["unity3d"] = 'nohup ~/Unity-2019.1.0f2/Editor/Unity >/dev/null 2>&1 &'
+
+# sudo breaking ccache
+#aliases["sudo"] = 'chown sxyu:sxyu -R /home/sxyu/.ccache/* && sudo'
+
+# pip not working
+aliases["pip"] = 'python2 -m pip'
+aliases["pip3"] = 'python3 -m pip'
+aliases["mkbuild"] = 'mkdir build && cd build'
+aliases["mkcmake"] = 'mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release'
+aliases["cmake-config"] = 'cmake .. -DCMAKE_BUILD_TYPE=Release'
+aliases["cmake-build"] = 'cmake --build . --config Release -j4'
+aliases["cmake-buildi"] = 'cmake --build . --config Release --target install -j4'
+aliases["wget-fast"] = 'aria2c --file-allocation=none -c -x 10 -s 10 -d .'
+aliases["software-and-updates"] = 'sudo software-properties-gtk'
+aliases["cuda-device-query"] = '/usr/local/cuda-11.0/extras/demo_suite/deviceQuery'
+
+aliases["fix-monitor"] = 'bash ~/.config/mons.sh'
+aliases["kdenlive"] = '~/libs/kdenlive-19.08.3-x86_64.appimage.1'
+aliases["serv"] = 'firefox localhost:8000; python3 -m http.server'
+aliases["fix-settings"] = "gsettings set org.gnome.ControlCenter last-panel ''"
+aliases["lock"] = "dm-tool lock"
+aliases["-"] = "cd -"
+aliases["c"] = "clear"
+aliases["r"] = "reset"
+aliases["v"] = "vim"
+aliases["g"] = "git"
+aliases["fp"] = "fish --private"
+aliases["make"] = "make -j12"
+
+$LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
+$PROMPT = '{env_name: {}}' + '{YELLOW}{cwd}{branch_color}{curr_branch: [{}]} {GREEN}>{NO_COLOR} '
+$OPENARK_DIR="/home/sxyu/proj/0VR/OpenARK"
+$AMASS_DIR="/home/sxyu/data/AMASS"
+$PATH.extend(["/usr/lib/ccache", "/home/sxyu/libs/emsdk", "/home/sxyu/libs/emsdk/node/12.9.1_64bit/bin", "/home/sxyu/libs/emsdk/upstream/emscripten", '/home/sxyu/builds/emsdk', '/home/sxyu/builds/emsdk/upstream/emscripten', '/home/sxyu/builds/emsdk/node/12.9.1_64bit/bin', '/usr/local/cuda-11.0/bin'])
+$_JAVA_AWT_WM_NONREPARENTING=1
+xontrib load apt_tabcomplete
+xontrib load autojump
+# xontrib load ssh_agent
+xontrib load vox
+xontrib load whole_word_jumping
+xontrib load schedule
+#xontrib load mpl
+xontrib load coreutils
+import numpy as np
+#source ~/xonshlib/__init__.py
+$PL_TOOLBAR = 'who>virtualenv>branch>cwd>full_proc'
+$PL_TOOLBAR = '!'  # for no toolbar
+
+
+$EMSDK = "/home/sxyu/builds/emsdk"
+$EM_CONFIG = "/home/sxyu/.emscripten"
+$EM_CACHE = "/home/sxyu/builds/emsdk/upstream/emscripten/cache"
+$EMSDK_NODE = "/home/sxyu/builds/emsdk/node/12.9.1_64bit/bin/node"
+$AUTO_CD = True
+$SMPLX_DIR = "/home/sxyu/proj/smpl"

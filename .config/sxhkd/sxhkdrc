@@ -1,0 +1,239 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + Return
+    urxvt -e xonsh
+
+# terminal emulator, fish
+super + alt + Return
+    urxvt -e fish
+alt + Return
+    urxvt -e fish
+
+# terminal emulator, private fish
+super + alt + shift + Return
+    urxvt -e fish --private
+alt + shift + Return
+    urxvt -e fish --private
+
+ctrl + alt + t
+    urxvt
+
+# program launcher
+super + @space
+     rofi -show run -terminal urxvt -theme breeze-dark
+
+super + F2
+     rofi -location 0 -show run -terminal urxvt -theme breeze-dark
+
+alt + F2
+     rofi -location 0 -show run -terminal urxvt -theme breeze-dark
+
+super + F1
+    scratchpad.sh dropdown
+alt + F1
+    scratchpad.sh dropdown
+super + u
+    scratchpad.sh dropdown
+
+# make sxhkd reload its configuration files:
+super + Escape
+    pkill -USR1 -x sxhkd
+
+# custom stuff
+super + alt + b
+    firefox 2> /dev/null &
+
+super + alt + v
+    urxvt -e sh -c "vim"
+
+super + alt + r
+    urxvt -e sh -c "ranger"
+
+super + alt + m
+    urxvt -e sh -c "cmus"
+
+super + alt + n
+    nautilus &
+
+super + alt + i
+    gnome-control-center & 2> /dev/null
+
+super + F1
+    bartermapp firefox 1
+
+#
+# bspwm hotkeys
+#
+
+# quit/restart bspwm
+super + alt + {q,r}
+    bspc {quit,wm -r}
+
+# close and kill
+super + {_,shift + }w
+    bspc node -{c,k}
+
+# alternate between the tiled and monocle layout
+super + m
+    bspc desktop -l next
+
+# send the newest marked node to the newest preselected node
+super + y
+    bspc node newest.marked.local -n newest.!automatic.local
+
+# swap the current node and the biggest node
+super + g
+    bspc node -s biggest
+
+#
+# state/flags
+#
+
+# set the window state
+super + {t,shift + t,s,f}
+    bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# set the node flags
+super + ctrl + {m,x,y,z}
+    bspc node -g {marked,locked,sticky,private}
+
+super + ctrl + r
+    bspc node @/ -R 90
+
+# flip
+super + ctrl + f
+    bspc node @/ --flip vertical
+super + q
+    bspc node @/ --flip vertical
+
+super + ctrl + shift + f
+    bspc node @/ --flip horizontal
+super + shift + q
+    bspc node @/ --flip horizontal
+
+# balance
+super + ctrl + b
+    bspc node @/ -B
+
+#
+# focus/swap
+#
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+    bspc node -{f,s} {west,south,north,east}
+
+# focus the node for the given path jump
+super + {p,b,comma,period}
+    bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous node in the current desktop
+super + {_,shift + }c
+    rofi -location 0 -show window -terminal urxvt -theme breeze-dark
+
+alt + {_,shift + }Tab
+    bspc node -f {next,prev}.local
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+    bspc desktop -f {prev,next}.local
+
+# focus the last node/desktop
+super + {grave,Tab}
+    bspc {node,desktop} -f last
+
+# focus the older or newer node in the focus history
+super + {o,i}
+    bspc wm -h off; \
+    bspc node {older,newer} -f; \
+    bspc wm -h on
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+    bspc {desktop -f,node -d} '^{1-9,10}'
+
+# super + button{1-3}
+#     bspc pointer -g {move,resize_side,resize_corner}
+# super + @button{1-3}
+#     bspc pointer -u
+# super + !button{1-3}
+#     bspc pointer -t %i %i
+
+
+#
+# preselect
+#
+
+# preselect the direction
+super + ctrl + {h,j,k,l}
+    bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+    bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+    bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+    bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+    bspc node -z {left -40 0,bottom 0 40,top 0 -40,right 40 0}
+
+# contract a window by moving one of its side inward
+super + alt + shift + {h,j,k,l}
+    bspc node -z {right -40 0,top 0 40,bottom 0 -40,left 40 0}
+
+# move a floating window
+super + {Left,Down,Up,Right}
+    bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# move to other desktop
+super + shift + {1-9}
+    id=$(bspc query -N -n); bspc node -d ^{1-9}; bspc node -f ${id}
+
+# volume, brightness
+XF86Audio{Raise,Lower}Volume
+    amixer -q set Master 2%{+,-}
+
+XF86AudioMute
+    amixer -q set Master toggle
+
+XF86AudioMicMute
+    pactl -- set-source-mute 1 toggle
+
+XF86MonBrightness{Down,Up}
+    sudo brightlight -{d,i} 1000
+
+# extra keys
+XF86Search
+    dmenu_run
+
+XF86Tools
+    unity-control-center & 2> /dev/null
+
+# wifi
+
+XF86WLAN
+    nmcli r wifi off
+
+shift + XF86WLAN
+    nmcli r wifi on
+
+# print screen
+{shift + ,_} Print
+    flameshot gui {-d 2000,_}
+
+super + alt + Print
+    peek
