@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo apt update
 sudo apt -y install rxvt-unicode-256color
+sudo cp /usr/share/terminfo/r/rxvt-256color /usr/share/terminfo/r/rxvt-unicode-256color
+cp /usr/share/terminfo/r/rxvt-unicode-256color ~/miniconda3/share/terminfo/r/
 sudo apt -y install python3-dev python3-pip
 sudo apt -y install clang cmake libclang-dev llvm-dev rapidjson-dev
 sudo apt -y install xcb \
