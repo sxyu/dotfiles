@@ -1,0 +1,8 @@
+#!/bin/sh
+pids=$(xdotool search --classname dropdown)
+for pid in $pids; do
+    echo "Kill $pid"
+    xdotool windowkill $pid
+done
+nohup urxvt -name dropdown -e fish > /dev/null 2>&1 &
+

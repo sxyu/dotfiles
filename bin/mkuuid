@@ -1,0 +1,15 @@
+#!/home/sxyu/anaconda3/bin/python
+import sys
+import uuid
+id = str(uuid.uuid4()).replace('-','_').upper()
+if len(sys.argv) == 2:
+    define = sys.argv[1].upper().strip()
+    if define[-1] != '_':
+        define += '_'
+    define += id
+    print('#pragma once')
+    print('#ifndef', define)
+    print('#define', define)
+    print('#endif  // ifndef', define)
+else:
+    print(id)
