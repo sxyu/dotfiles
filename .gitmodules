@@ -1,0 +1,18 @@
+[submodule "builds/ccls"]
+	path = builds/ccls
+	url = https://github.com/MaskRay/ccls
+[submodule "builds/jump"]
+	path = builds/jump
+	url = https://github.com/gsamokovarov/jump
+[submodule "builds/vim"]
+	path = builds/vim
+	url = https://github.com/vim/vim
+[submodule "builds/bspwm"]
+	path = builds/bspwm
+	url = https://github.com/baskerville/bspwm
+[submodule "builds/sxhkd"]
+	path = builds/sxhkd
+	url = https://github.com/baskerville/sxhkd
+[submodule "builds/polybar"]
+	path = builds/polybar
+	url = https://github.com/polybar/polybar

@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-    urxvt -e xonsh
+    urxvt -e fish
 
 # terminal emulator, fish
 super + alt + Return

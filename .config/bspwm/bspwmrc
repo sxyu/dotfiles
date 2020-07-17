@@ -33,7 +33,7 @@ bspc config borderless_monocle   false
 bspc config gapless_monocle      false
 bspc config click_to_focus       button1
 
-feh --bg-fill /usr/share/backgrounds/Forever_by_Shady_S.jpg
+feh --bg-fill /usr/share/backgrounds/Milky_Way_before_the_dawn_by_Tomas_Sobek.jpg
 
 polybar --reload x &
 

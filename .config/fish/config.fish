@@ -60,6 +60,6 @@ complete --command j --exclusive --arguments '(__jump_hint)'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /home/sxyu/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+eval /home/sxyu/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 

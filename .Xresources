@@ -77,11 +77,11 @@ URxvt.geometry: 		140x40
 URxvt.internalBorder:	9
 ! URxvt*letterSpace: 	    0
 URxvt*lineSpace: 		0
-URxvt*font:             xft:Iosevka Term:regular:size=12
-URxvt*imFont:           xft:Iosevka Term:regular:size=12
-URxvt*boldFont:         xft:Iosevka Term:bold:size=12
-URxvt*italicFont:       xft:Iosevka Term:regular:size=12
-URxvt*boldItalicFont:   xft:Iosevka Term:regular:size=12
+URxvt*font:             xft:Iosevka Term:regular:size=11
+URxvt*imFont:           xft:Iosevka Term:regular:size=11
+URxvt*boldFont:         xft:Iosevka Term:bold:size=11
+URxvt*italicFont:       xft:Iosevka Term:regular:size=11
+URxvt*boldItalicFont:   xft:Iosevka Term:regular:size=11
 
 ! ------------------------------------------------------------------------------
 ! Xft Font Configuration
