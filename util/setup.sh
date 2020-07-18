@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt update
+sudo apt -y install ruby ruby-dev nodejs npm
 sudo apt -y install xclip
 sudo apt -y install net-tools axel
 sudo apt -y install libxrandr-dev libxinerama-dev libxcursor-dev
@@ -38,19 +39,21 @@ sudo apt -y install ubuntu-wallpapers-cosmic ubuntu-wallpapers-bionic ubuntu-wal
 sudo apt -y install cmus rofi
 sudo apt -y install htop powertop xdotool
 pip3 install yapf jedi
-mkdir ~/.vim/tmp
-cd ~/.vim/pack/default/start/command-t
-rake make
-cd ~/builds/bspwm && make -j12 && sudo make install
-cd ~/builds/sxhkd && make -j12 && sudo make install
-cd ~/builds/jump && make -j12 && sudo install jump /usr/local/bin/jump
-cd ~/builds/vim && ./configure --enable-rubyinterp --enable-python3interp && make -j12 && sudo make install
-cd ~/builds/polybar && mkdir build && cd build
+mkdir -p ~/.vim/tmp
+git submodule update --init --recursive
+cd ~/builds/bspwm && git reset && make -j12 && sudo make install
+cd ~/builds/sxhkd && git reset && make -j12 && sudo make install
+cd ~/builds/jump && git reset && make -j12 && sudo install jump /usr/local/bin/jump
+cd ~/builds/vim && git reset && ./configure --enable-rubyinterp --enable-python3interp && make -j12 && sudo make install
+cd ~/builds/polybar && mkdir build
+cd build
 git submodule update --init --recursive
 cmake .. -DCMAKE_BUILD_TYPE=Release
 sudo make install
-cd ~/builds/ccls && mkdir build && cd build
+cd ~/builds/ccls && mkdir build
+cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 sudo make install
 sudo cp ~/builds/bspwm/contrib/freedesktop/bspwm.desktop /usr/share/xsessions/
-
+cd ~/.vim/pack/default/start/command-t
+rake make
