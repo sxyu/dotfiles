@@ -8,7 +8,7 @@ sudo cp /usr/share/terminfo/r/rxvt-256color /usr/share/terminfo/r/rxvt-unicode-2
 cp /usr/share/terminfo/r/rxvt-unicode-256color ~/miniconda3/share/terminfo/r/
 sudo cp -ar util/lib-urxvt-perl/* /usr/lib/x86_64-linux-gnu/urxvt/perl/
 sudo apt -y install python3-dev python3-pip
-sudo apt -y install clang cmake libclang-dev llvm-dev rapidjson-dev
+sudo apt -y install clang clang-format cmake libclang-dev llvm-dev rapidjson-dev
 sudo apt -y install xcb \
                       libxcb-util0-dev \
                       libxcb-ewmh-dev \

@@ -3,6 +3,9 @@
     "%2Fhome%2Fsxyu%2Fproj%2Fsmpl": [
       ":w",
       "exit"
+    ],
+    "%2Fhome%2Fsxyu%2Fproj%2Fmisc%2Ftorch": [
+      "python.setInter"
     ]
   },
   "diagnostics": {

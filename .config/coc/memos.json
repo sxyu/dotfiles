@@ -1465,12 +1465,10 @@
           "type": "Conda",
           "envPath": "/home/sxyu/miniconda3",
           "envName": "base",
-          "cachedEntry": true,
-          "displayName": "Python 3.7.7 64-bit ('base': conda)",
-          "__store": true
+          "displayName": "Python 3.7.7 64-bit ('base': conda)"
         }
       },
-      "expiry": 1595110845589
+      "expiry": 1595119472904
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -1558,10 +1556,10 @@
     },
     "/home/sxyu/miniconda3/bin/python.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.7.7 64-bit ('miniconda3': virtualenv)",
-        "hash": "6c3fdae963eff40b181a4251e6738aa69edbdd96299ff1ebf2f777f28ff29470cf464b3a6da3a267914bd7f51944b8d882e7462f8af8a285fab0b45383c6e988-c7ec81b807ef1afd2b8843ea04dd84f4"
+        "displayName": "Python 3.7.7 64-bit ('base': conda)",
+        "hash": "6c3fdae963eff40b181a4251e6738aa69edbdd96299ff1ebf2f777f28ff29470cf464b3a6da3a267914bd7f51944b8d882e7462f8af8a285fab0b45383c6e988-0c635c6a58a2ae71c0b44ddebdd138f7"
       },
-      "expiry": 1595110845665
+      "expiry": 1595119472895
     }
   },
   "coc-python|/home/sxyu/proj/misc/torch": {
@@ -1592,7 +1590,8 @@
       "fileHash": "12b726369ceaaa5291e0f88b5219af26cb8ef549de21af4a60856e4d2157a4d9526fb0c928ed49f983f56404cb72ad20970134ff138240a6eb9d67aa85bd7459",
       "type": "Unknown",
       "displayName": "Python 3.8.2 64-bit"
-    }
+    },
+    "SelectedPythonPath": "/home/sxyu/miniconda3/bin/python"
   },
   "coc-python|/home/sxyu": {
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
