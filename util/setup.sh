@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-sudo apt -y install ruby ruby-dev nodejs npm
+sudo apt -y install ruby ruby-dev nodejs npm golang-go
 sudo apt -y install xclip
 sudo apt -y install net-tools axel
 sudo apt -y install libxrandr-dev libxinerama-dev libxcursor-dev
