@@ -1354,27 +1354,26 @@
     },
     "InterpreterAutoSeletionRule-currentPath": {
       "architecture": 3,
-      "path": "/usr/bin/python3",
+      "path": "/home/sxyu/miniconda3/bin/python",
       "version": {
         "options": {
           "loose": false,
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.8.2-final",
+        "raw": "3.7.7-final",
         "major": 3,
-        "minor": 8,
-        "patch": 2,
+        "minor": 7,
+        "patch": 7,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.8.2-final"
+        "version": "3.7.7-final"
       },
-      "sysPrefix": "/usr",
-      "fileHash": "12b726369ceaaa5291e0f88b5219af26cb8ef549de21af4a60856e4d2157a4d9526fb0c928ed49f983f56404cb72ad20970134ff138240a6eb9d67aa85bd7459",
-      "type": "Unknown",
-      "cachedEntry": true
+      "sysPrefix": "/home/sxyu/miniconda3",
+      "fileHash": "6c3fdae963eff40b181a4251e6738aa69edbdd96299ff1ebf2f777f28ff29470cf464b3a6da3a267914bd7f51944b8d882e7462f8af8a285fab0b45383c6e988",
+      "type": "Unknown"
     },
     "preferredGlobalPyInterpreter": {
       "architecture": 3,
@@ -1436,7 +1435,6 @@
       "sysPrefix": "/usr",
       "fileHash": "12b726369ceaaa5291e0f88b5219af26cb8ef549de21af4a60856e4d2157a4d9526fb0c928ed49f983f56404cb72ad20970134ff138240a6eb9d67aa85bd7459",
       "type": "Unknown",
-      "cachedEntry": true,
       "displayName": "Python 3.8.2 64-bit"
     },
     "/home/sxyu/miniconda3/bin/python.interpreter.Details.v7": {
@@ -1556,7 +1554,6 @@
       "sysPrefix": "/usr",
       "fileHash": "12b726369ceaaa5291e0f88b5219af26cb8ef549de21af4a60856e4d2157a4d9526fb0c928ed49f983f56404cb72ad20970134ff138240a6eb9d67aa85bd7459",
       "type": "Unknown",
-      "cachedEntry": true,
       "displayName": "Python 3.8.2 64-bit"
     },
     "/home/sxyu/miniconda3/bin/python.interpreter.displayName.v7": {
@@ -1570,9 +1567,11 @@
   "coc-python|/home/sxyu/proj/misc/torch": {
     "INTERPRETERS_CACHE_v3_PipEnvService:a2a60b7d610a429d06b324e016ace43b": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a2a60b7d610a429d06b324e016ace43b": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
     "autoSelectedWorkspacePythonInterpreter-/home/sxyu/proj/misc/torch": {
       "architecture": 3,
-      "path": "/bin/python",
+      "path": "/bin/python3",
       "version": {
         "options": {
           "loose": false,
@@ -1590,12 +1589,10 @@
         "version": "3.8.2-final"
       },
       "sysPrefix": "/usr",
-      "fileHash": "7bd7d46d518699e3ed38f7741a6d1b245c180948c42ca14e07a5485133f54dbdabcea0a4c79ac280855d355677db4320ca7f26fa921ff1edf8708c9b2c44ae78",
+      "fileHash": "12b726369ceaaa5291e0f88b5219af26cb8ef549de21af4a60856e4d2157a4d9526fb0c928ed49f983f56404cb72ad20970134ff138240a6eb9d67aa85bd7459",
       "type": "Unknown",
       "displayName": "Python 3.8.2 64-bit"
-    },
-    "INTERPRETERS_CACHE_v3_PipEnvService": [],
-    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+    }
   },
   "coc-python|/home/sxyu": {
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
